@@ -1,9 +1,65 @@
-$background-color : rgb(23, 226, 23);
-header {
-    background-color: $background-color;
-    justify-content: center;
+
+
+// nav {
+//     height: 15vh;
+// }
+
+//  GLOBAL
+
+  .flex {
+    display: flex;
+  }
+.white-color {
+    color: #fff;
 }
 
-body {
-    background-color: purple;
+.gray-color {
+    color: #888888;
+}
+
+.bg-gray{
+    background-color: #888888;
+}
+
+.pink-color {
+    color: #d35266;
+}
+
+.bg-pink {
+    color: #d35266;
+}
+// NAVIGATION
+nav {
+    background-color: #383838;
+}
+
+ul {
+    margin: 0 70px;
+}
+
+.list-height {
+    padding-top: 10px;
+}
+a {
+    align-items: center;
+    padding-right: 25px;
+}
+
+.list-space {
+    padding-right: 15px;
+}
+
+.logo {
+    width: 40px;
+}
+
+button {
+    border: 2px thin;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d35266;
+}
+
+.email {
+    padding-top: 5px;
 }

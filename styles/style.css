@@ -1,11 +1,64 @@
-header {
-  background-color: #17e217;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body {
-  background-color: purple;
+.white-color {
+  color: #fff;
+}
+
+.gray-color {
+  color: #888888;
+}
+
+.bg-gray {
+  background-color: #888888;
+}
+
+.pink-color {
+  color: #d35266;
+}
+
+.bg-pink {
+  color: #d35266;
+}
+
+nav {
+  background-color: #383838;
+}
+
+ul {
+  margin: 0 70px;
+}
+
+.list-height {
+  padding-top: 10px;
+}
+
+a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 25px;
+}
+
+.list-space {
+  padding-right: 15px;
+}
+
+.logo {
+  width: 40px;
+}
+
+button {
+  border: 2px thin;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d35266;
+}
+
+.email {
+  padding-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
