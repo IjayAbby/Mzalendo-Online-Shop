@@ -1,0 +1,11 @@
+header {
+  background-color: #17e217;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  background-color: purple;
+}
+/*# sourceMappingURL=style.css.map */
