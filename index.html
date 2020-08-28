@@ -1,65 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Mzalendo Online Shop</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-
-            <ul class="flex">
-                <li class="flex">
-                    <a class="flex" href="#">
-                    <img src="assets/images/logo.png" class="logo" alt="">
-                    <h6 class="white-color">MZALENDO</h6>
-                    </a>
-                </li>
-                <li class=""> 
-                    <a class="flex list-height" href="#">
-                        <i class="fas fa-home list-space bg-pink"></i>
-                        <h6 class="pink-color">HOME</h6>
-                    </a>
-                    
-                </li>
-                <li class=""> 
-                    <a class="flex list-height" href="#">
-                        <i class="far fa-sliders-h-square"></i>
-                        <h6 class="gray-color">COLLECTIONS</h6>
-                    </a> 
-                </li>
-                <li class="">
-                    <a class="flex list-height" href="#">
-                        <i class="fas fa-shopping-cart list-space bg-gray"></i>
-                        <h6 class="gray-color">PURCHASE LIST</h6>
-                    </a> 
-                </li>
-                <li>
-                    <a href="#">
-                        <button class="white-color">POST AN AD</button>
-                    </a>
-                </li>
-            </ul>
-            <ul class="flex">
-                <li class="">
-                    <a class="" href="#">
-                        <i class="far fa-envelope email gray-color"></i>
-                    </a>
-                </li>
-                <li class="">
-                    <a class="flex" href="#">
-                        <h6 class="list-space white-color">Ijay Abby</h6>
-                        <img src="assets/images/user.jpg" class="logo rounded-circle" alt="">
-                    </a>
-                </li>
-            </ul>
-        
+      <ul>
+        <li>
+          <a href="#">
+            <img src="assets/images/logo.png" class="logo" alt="" />
+            <h6 class="white-color">MZALENDO</h6>
+          </a>
+        </li>
+        <li>
+          <a class="list-height" href="#">
+            <i class="fas fa-home list-space bg-pink"></i>
+            <h6 class="pink-color">HOME</h6>
+          </a>
+        </li>
+        <li class="">
+          <a class="list-height" href="#">
+            <i class="far fa-sliders-h-square"></i>
+            <h6 class="gray-color">COLLECTIONS</h6>
+          </a>
+        </li>
+        <li class="">
+          <a class="list-height" href="#">
+            <i class="fas fa-shopping-cart list-space gray-color"></i>
+            <h6 class="gray-color">PURCHASE LIST</h6>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <button class="white-color">POST AN AD</button>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a class="" href="#">
+            <i class="far fa-envelope email gray-color"></i>
+          </a>
+        </li>
+        <li class="">
+          <a href="#">
+            <h6 class="list-space white-color">Ijay Abby</h6>
+            <i class="fas fa-user-circle gray-color"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
+    <section class="hero-section">
 
-</body>
+<div class="hero-text">
+      <h1 class="display-1 text-white">MZALENDO</h1>
+      <p class="h4 emphasy text-white">Mwacha mila ni mtumwa</p></>
+    </div>
+      <div class="search-area">
+      <select name="departments" id="departments" class="search-contents">
+          <option disabled="" selected="" value="">All Departments</option>
+  <option value="shuka">Shukas</option>
+  <option value="beads">Beads</option>
+  <option value="shoes">Shoes</option>
+  <option value="carvings">Carvings</option>
+</select>
+<input type="text" id="search" class="search-contents" placeholder="What do you search for?">
+<input type="text" id="county" class="search-contents" placeholder="Country">
+<button type="button" class="btn btn-dark px-5 mx-2">Search</button>
+</div>
+
+    </section>
+
+    <section>
+
+      <h1 class="ads-title">HOT ADS</h1>
+      <div class="row  mx-20">
+        <div class="col p-0">
+          <img src="assets/images/Shuka300.jpg" class="image-width ml-20" alt="" />
+          <div>
+            <i class="fas fa-less-than"></i>
+            <i class="fas fa-greater-than"></i>
+          </div>
+        </div>
+        <div class="col p-0 ads-contents">
+          <i class="fas fa-arrow-circle-left"></i>
+          <i class="fas fa-arrow-circle-right"></i>
+          <h1 class="h4">Collection of Maasai Shuka</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea
+            porro expedita rerum est a suscipit error eius voluptates harum cum
+            voluptate doloremque veniam vel, doloribus molestias iure ipsum
+            quaerat?
+          </p>
+          <h6 class="mt-3">By:Kyendereta</h6>
+          <h4>Location:Narok County</h4>
+         <div class="price d-flex">
+          <p class="purchase text-white">Ksh 800</p>
+          <p class="purchase">
+            <i class="fas fa-shopping-cart text-white">Purchase Details</i>
+          </p>
+         </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>

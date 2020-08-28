@@ -1,65 +1,132 @@
-
-
-// nav {
-//     height: 15vh;
-// }
+@import './variables';
+@import './mixin';
 
 //  GLOBAL
 
-  .flex {
-    display: flex;
-  }
 .white-color {
-    color: #fff;
+    color: $whiteColor;
 }
 
 .gray-color {
-    color: #888888;
+    color: $grayColor;
 }
 
 .bg-gray{
-    background-color: #888888;
+    background-color: $grayColor;
 }
 
 .pink-color {
-    color: #d35266;
+    color: $pinkColor;
 }
 
 .bg-pink {
-    color: #d35266;
+    color: $pinkColor;
 }
 // NAVIGATION
 nav {
-    background-color: #383838;
-}
-
-ul {
+    background-color: $darkColor;
+    .logo {
+        width: 40px;
+    }
+    ul {
+    @include flex();
     margin: 0 70px;
-}
+    button {
+        border: 2px thin;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $pinkColor;
+    }
+    a {
+        @include flex();
+        align-items: center;
+        padding-right: 25px;
+        &:hover {
+            text-decoration: none;
+        }   
+    }
 
-.list-height {
-    padding-top: 10px;
-}
-a {
-    align-items: center;
-    padding-right: 25px;
-}
-
-.list-space {
+    .list-space {
     padding-right: 15px;
+    }
+
+    .fa-user-circle {
+    font-size: 35px;
+    }
+
+    .list-height,
+    .email {
+    padding-top: 10px;
+    }
+    
+    }
 }
 
-.logo {
-    width: 40px;
+.hero-section {
+    background-color: $pinkColor;
+    height: 60vh;
+    justify-content: center;
 }
 
-button {
-    border: 2px thin;
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.search {
+    @include flex();
+    border: 5px thin white;
+    border-radius: 10px;
+}
+
+.first-btn {
+    display: flex;
+}
+
+.hero-text {
+    @include flex();
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.emphasy
+ {
+    margin-left: 120px;
+}
+
+.search-area {
+    @include flex();
+    justify-content: center;
     padding: 10px;
-    border-radius: 5px;
-    background-color: #d35266;
 }
 
-.email {
-    padding-top: 5px;
+.search-contents {
+    padding: 15px;
+}
+
+.image-width {
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.ads-title {
+    margin-left: 235px;
+    margin-top: 20px;
+    
+}
+.ads-contents {
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.price {
+    margin-top: 7px;
+}
+.purchase {
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: $pinkColor;
 }
