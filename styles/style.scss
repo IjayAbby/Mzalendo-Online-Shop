@@ -117,6 +117,18 @@ section {
     margin-top: 20px;
     
 }
+
+.btn-left {
+    margin-left: 150px;
+}
+
+.btn-right {
+    margin-left: 1150px;
+}
+
+.ads-name {
+    color: $pinkColor;
+}
 .ads-contents {
     margin-right: 200px;
     margin-top: 20px;
@@ -126,7 +138,7 @@ section {
     margin-top: 7px;
 }
 .purchase {
-  border: 2px solid gray;
+  border: 2px groove black;
   padding: 10px;
   background-color: $pinkColor;
 }
