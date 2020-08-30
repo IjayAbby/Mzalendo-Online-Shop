@@ -135,7 +135,7 @@ section {
     margin-left: 1150px;
 }
 
-.ads-name {
+.ads-name,.text-pink {
     color: $pinkColor;
 }
 .ads-contents {
@@ -191,8 +191,65 @@ section {
 }
 
 .footer-heading {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $pinkColor;
 }
 .footer-categories {
     padding-left: 60px;
+}
+
+// SEARCH PAGE 
+
+.search-hero-section {
+    background-color: $pinkColor;
+    height: 40vh;
+}
+
+.aside-section {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.aside-heading {
+    margin-left: 40px;
+}
+.material-checkbox {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.main-section-search {
+    background-color: #f6f6f6;
+}
+
+.carving-search {
+    // border: 1px groove grey;
+}
+
+.carving-image {
+    width: 230px;
+    height: 210px;
+}
+
+.links-button {
+    background-color: $whiteColor;
+}
+
+.number-2 {
+    background-color: $pinkColor;
+}
+
+.footer-paragraph {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.footer-details {
+    border: 1px hidden grey;
+}
+
+.social-icons {
+    display: flex;
+    align-items: flex-end;
+
 }

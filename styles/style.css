@@ -159,7 +159,7 @@ section {
   margin-left: 1150px;
 }
 
-.ads-name {
+.ads-name, .text-pink {
   color: #d35266;
 }
 
@@ -217,10 +217,71 @@ section {
 }
 
 .footer-heading {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #d35266;
 }
 
 .footer-categories {
   padding-left: 60px;
+}
+
+.search-hero-section {
+  background-color: #d35266;
+  height: 40vh;
+}
+
+.aside-section {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.aside-heading {
+  margin-left: 40px;
+}
+
+.material-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.main-section-search {
+  background-color: #f6f6f6;
+}
+
+.carving-image {
+  width: 230px;
+  height: 210px;
+}
+
+.links-button {
+  background-color: #fff;
+}
+
+.number-2 {
+  background-color: #d35266;
+}
+
+.footer-paragraph {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.footer-details {
+  border: 1px hidden grey;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=style.css.map */
