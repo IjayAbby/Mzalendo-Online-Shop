@@ -21,6 +21,11 @@
     color: $whiteColor;
 }
 
+
+img {
+    width: 100%;
+}
+
 .gray-color {
     color: $grayColor;
 }
@@ -38,7 +43,7 @@
 }
 
 body {
-    max-width: 100%;
+
     font-family: $font-gotham-light;
 }
 // NAVIGATION
@@ -225,16 +230,19 @@ section {
 
 .search-hero-section {
     background-color: $pinkColor;
-    height: 40vh;
+    height: 40%;
 }
 
+.search-pane {
+    padding: 0;
+}
 .aside-section {
     margin-left: 100px;
-    margin-right: 50px;
+    // margin-right: 50px;
 }
 
 .aside-heading {
-    margin-left: 40px;
+    // margin-left: 40px;
 }
 .material-checkbox {
     display: flex;
@@ -251,6 +259,9 @@ section {
 }
 
 .carving-image {
+//     width: 100%;
+//   height: auto;
+// object-fit: cover;
     width: 230px;
     height: 210px;
 }
