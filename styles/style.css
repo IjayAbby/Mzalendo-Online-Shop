@@ -1,3 +1,15 @@
+.font-gotham-light {
+  font-family: font-gotham-light;
+}
+
+.font-helvetica {
+  font-family: font-helvetica;
+}
+
+.font-helvetica-light {
+  font-family: font-helvetica-light;
+}
+
 .white-color {
   color: #fff;
 }
@@ -16,6 +28,11 @@
 
 .bg-pink {
   color: #d35266;
+}
+
+body {
+  max-width: 100%;
+  font-family: font-gotham-light;
 }
 
 nav {
@@ -187,7 +204,6 @@ section {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  background-color: #2196F3;
   padding: 50px;
   gap: 35px;
 }
@@ -195,7 +211,6 @@ section {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 10px;
 }
 
 .shoe-image {
