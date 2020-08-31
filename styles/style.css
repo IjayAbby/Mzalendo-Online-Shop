@@ -198,10 +198,6 @@ section {
   background-color: #d35266;
 }
 
-.display-items {
-  border-top: 2px groove black;
-}
-
 .grid-container {
   display: -ms-grid;
   display: grid;
