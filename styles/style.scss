@@ -172,9 +172,7 @@ section {
 }
 
 // DISPLAY ITEMS MAIN SECTION
-.display-items {
-    border-top: 2px groove black;
-}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
