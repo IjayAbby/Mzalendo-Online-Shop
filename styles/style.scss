@@ -28,8 +28,19 @@ body {
     color: $whiteColor;
 }
 
+.price-tag{
+    color: $pinkColor;
+}
 
+.price-icon {
+    font-weight: lighter;
+    color: grey;
+}
 
+.dropdown-divider {
+    margin-bottom: 4vh;
+    font-weight: bolder;
+}
 img {
     width: 100%;
 }
@@ -198,6 +209,7 @@ select {
 .shop-item {
     height: 10vh;
     margin-bottom: 40vh;
+    cursor: pointer;
 }
 
 .image-arrow {

@@ -15,89 +15,92 @@
 
 <body>
    
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <a class="navbar-brand" href="#">Mzalendo</a>
+        <ul>
+    
+          <li>
+            <a class="list-height" href="#">
+              <i class="fas fa-home list-space bg-pink"></i>
+              <h6 class="pink-color">HOME</h6>
+            </a>
+          </li>
+          <li class="">
+            <a class="list-height" href="#">
+              <i class="far fa-sliders-h-square"></i>
+              <h6 class="gray-color">COLLECTIONS</h6>
+            </a>
+          </li>
+          <li class="">
+            <a class="list-height" href="#">
+              <i class="fas fa-shopping-cart list-space gray-color"></i>
+              <h6 class="gray-color">PURCHASE LIST</h6>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <button class="white-color">POST AN AD</button>
+            </a>
+          </li>
+        </ul>
+    
+      </nav>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="assets/images/logo.png" class="logo" alt="" />
-                        <h6 class="white-color">MZALENDO</h6>
-                    </a>
-                </li>
-                <li>
-                    <a class="list-height" href="#">
-                        <i class="fas fa-home list-space bg-pink"></i>
-                        <h6 class="pink-color">HOME</h6>
-                    </a>
-                </li>
-                <li class="">
-                    <a class="list-height" href="#">
-                        <i class="far fa-sliders-h-square"></i>
-                        <h6 class="gray-color">COLLECTIONS</h6>
-                    </a>
-                </li>
-                <li class="">
-                    <a class="list-height" href="#">
-                        <i class="fas fa-shopping-cart list-space gray-color"></i>
-                        <h6 class="gray-color">PURCHASE LIST</h6>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <button class="white-color">POST AN AD</button>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <section class="search-hero-section container-fluid">
-
+      <div class=" hero-section container-fluid">
         <div class="hero-text">
-            <h1 class="display-4 text-white">MZALENDO</h1>
-            <p class="h4  text-white">Search around 12,000 items waiting to be sold!</p>
+          <h1 class="text-white text-center mzalendo">MZALENDO</h1>
+          <p class="text-white text-center mwacha">Search around 12,000 items waiting to be sold!</p>
         </div>
-        <div class="container search-area">
+    
+        <form action="./search.html" method="get">
+          <div class="container-fluid search-area">
             <div class="row">
-                <div class="col-sm-3"> <select name="departments" id="departments" class="search-contents">
-                        <option disabled="" selected="" value="">All Departments</option>
-                        <option value="shuka">Shukas</option>
-                        <option value="beads">Beads</option>
-                        <option value="shoes">Shoes</option>
-                        <option value="carvings">Carvings</option>
-                    </select></div>
-                <div class="col-sm-3"> <input type="text" id="search" class="search-contents"
-                        placeholder="What do you search for?"></div>
-                <div class="col-sm-3"><input type="text" id="county" class="search-contents" placeholder="Country">
-                </div>
-                <div class="col-sm-3"> <button type="button" class="btn btn-dark px-5 mx-2">Search</button></div>
-
+    
+              <div class="col-sm-3">
+                <select name="departments" id="departments" class="search-contents">
+                  <option disabled="" selected="" value="">All Departments</option>
+                  <option value="shuka">Shukas</option>
+                  <option value="beads">Beads</option>
+                  <option value="shoes">Shoes</option>
+                  <option value="carvings">Carvings</option>
+                </select>
+              </div>
+    
+    
+              <div class="col-sm-3">
+                <input type="text" id="search" class="search-contents" placeholder="What do you search for?">
+              </div>
+    
+              <div class="col-sm-3">
+                <input type="text" id="county" class="search-contents" placeholder="Country">
+              </div>
+    
+              <div class="col-sm-3">
+                <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
+              </div>
+    
+    
             </div>
+          </div>
+        </form>
+      </div>
 
-        </div>
 
-    </section>
 
 
 
 
     <div class="row main-section-search">
-    <div class="col-sm-4 d-sm-none d-md-block search-pane">
+    <div class="col-3  search-pane">
             <aside class="aside-section">
-                <div class="d-flex py-3 ">
+                <!-- <div class="d-flex py-3 ">
                     <input type="checkbox" id="carving" name="carving" value="carving">
                     <label for="carving" class="ml-2">Carvings</label>
                     <div class="aside-heading d-flex">
                         <input type="checkbox" id="material" name="material" value="material">
                         <label for="materials" class="ml-2">Materials</label>
                     </div>
-                </div>
+                </div> -->
                 <h1 class="font-weight-bold py-1 border-bottom">Type</h1>
                 <div class="py-2 material-checkbox">
                     <div class="py-1">
@@ -135,7 +138,7 @@
             </aside>
         </div>
     <!-- MAIN SECTION -->
-    <div class="col-sm-4 col-md-8 border-left border-right">
+    <div class="col-8 border-left border-right">
             <main>
                 <div>
                     <h1 class="py-3">
