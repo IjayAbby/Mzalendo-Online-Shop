@@ -1,4 +1,4 @@
-// @import url('https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
 @import './variables';
 @import './mixin';
 @import './typography';
@@ -113,7 +113,7 @@ nav {
 
 
 section {
-    display: flex;
+    @include flex();
     flex-direction: column;
     margin: 0 auto;
     justify-content: center;
@@ -126,7 +126,7 @@ section {
 }
 
 .first-btn {
-    display: flex;
+    @include flex();
 }
 
 .hero-text {
@@ -259,11 +259,6 @@ select {
     width: 100%;
     height: 200px;
 }
-// .fit-image{
-//     width: 100%;
-//     object-fit: cover;
-//     height: 300px; /* only if you want fixed height */
-//     }
 
 .plus-icon {
     font-size: 30px;
@@ -301,14 +296,10 @@ footer {
 }
 .aside-section {
     margin-left: 100px;
-    // margin-right: 50px;
 }
 
-.aside-heading {
-    // margin-left: 40px;
-}
 .material-checkbox {
-    display: flex;
+    @include flex();
     flex-direction: column;
     align-content: space-around;
 }
@@ -342,7 +333,7 @@ footer {
 }
 
 .social-icons {
-    display: flex;
+    @include flex();
     align-items: flex-end;
 
 }
