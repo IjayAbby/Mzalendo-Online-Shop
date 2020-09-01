@@ -16,28 +16,33 @@
 <body>
    
     <nav class="navbar navbar-expand-sm fixed-top">
-        <a class="navbar-brand" href="#">Mzalendo</a>
+        
         <ul>
-    
+            <li>
+                <a href="#">
+                  <img src="assets/images/logo.png" class="logo" alt="" />
+                  <h6 class="white-color ">MZALENDO</h6>
+                </a>
+              </li>
           <li>
             <a class="list-height" href="#">
               <i class="fas fa-home list-space bg-pink"></i>
               <h6 class="pink-color">HOME</h6>
             </a>
           </li>
-          <li class="">
+          <li class="d-none d-sm-block">
             <a class="list-height" href="#">
               <i class="far fa-sliders-h-square"></i>
               <h6 class="gray-color">COLLECTIONS</h6>
             </a>
           </li>
-          <li class="">
+          <li class="d-none d-sm-block">
             <a class="list-height" href="#">
               <i class="fas fa-shopping-cart list-space gray-color"></i>
               <h6 class="gray-color">PURCHASE LIST</h6>
             </a>
           </li>
-          <li>
+          <li class="d-none d-sm-block">
             <a href="#">
               <button class="white-color">POST AN AD</button>
             </a>
@@ -85,6 +90,11 @@
         </form>
       </div>
 
+
+
+
+
+      <h1 class="ads-title">SEARCH PRODUCTS</h1>
     <div class="row main-section-search">
     <div class="col-sm-3  d-sm-none d-md-block d-lg-block search-pane">
             <aside class="aside-section">
@@ -96,40 +106,48 @@
                         <label for="materials" class="ml-2">Materials</label>
                     </div>
                 </div> -->
-                <h1 class="font-weight-bold py-1 border-bottom">Type</h1>
-                <div class="py-2 material-checkbox">
-                    <div class="py-1">
-                        <input type="checkbox" id="carving1" name="wood  margin-top: 10vh;en" value="Wooden">
-                        <label for="carving1" class="ml-2">Wooden</label><br>
+                <div class="row">
+                    <div class="col-sm-6 col-md-12">
+                        <h1 class="font-weight-bold py-1 border-bottom">Type</h1>
+                        <div class="py-2 material-checkbox">
+                            <div class="py-1">
+                                <input type="checkbox" id="carving1" name="wood  margin-top: 10vh;en" value="Wooden">
+                                <label for="carving1" class="ml-2">Wooden</label><br>
+                            </div>
+                            <div class="py-1">
+                                <input type="checkbox" id="carving2" name="metalic" value="Metalic">
+                                <label for="carving2" class="ml-2">Metalic</label><br>
+                            </div>
+                            <div class="py-1">
+                                <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
+                                <label for="carving3" class="ml-2">Soap stone</label><br>
+                            </div>
+                        </div>
                     </div>
-                    <div class="py-1">
-                        <input type="checkbox" id="carving2" name="metalic" value="Metalic">
-                        <label for="carving2" class="ml-2">Metalic</label><br>
-                    </div>
-                    <div class="py-1">
-                        <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
-                        <label for="carving3" class="ml-2">Soap stone</label><br>
+                    <div class="col-sm-6 col-md-12">
+                        <h1 class="font-weight-bold py-1 border-bottom">Price Range</h1>
+                        <div class="py-2">
+                            <div class="py-1">
+                                <input type="checkbox" id="price1" name="price" value="Wooden">
+                                <label for="price1" class="ml-2">Ksh 100-1,000</label><br>
+                            </div>
+                            <div class="py-1">
+                                <input type="checkbox" id="price2" name="price" value="Metalic">
+                                <label for="price2" class="ml-2">Ksh 1,000-5,000</label><br>
+                            </div>
+                            <div class="py-1">
+                                <input type="checkbox" id="price3" name="price" value="Soap-stone">
+                                <label for="price3" class="ml-2">Ksh 5,000-10,000</label><br>
+                            </div>
+                            <div class="py-1">
+                                <input type="checkbox" id="price3" name="price" value="Soap-stone">
+                                <label for="price3" class="ml-2">Ksh 10,000+</label><br>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h1 class="font-weight-bold py-1 border-bottom">Price Range</h1>
-                <div class="py-2">
-                    <div class="py-1">
-                        <input type="checkbox" id="price1" name="price" value="Wooden">
-                        <label for="price1" class="ml-2">Ksh 100-1,000</label><br>
-                    </div>
-                    <div class="py-1">
-                        <input type="checkbox" id="price2" name="price" value="Metalic">
-                        <label for="price2" class="ml-2">Ksh 1,000-5,000</label><br>
-                    </div>
-                    <div class="py-1">
-                        <input type="checkbox" id="price3" name="price" value="Soap-stone">
-                        <label for="price3" class="ml-2">Ksh 5,000-10,000</label><br>
-                    </div>
-                    <div class="py-1">
-                        <input type="checkbox" id="price3" name="price" value="Soap-stone">
-                        <label for="price3" class="ml-2">Ksh 10,000+</label><br>
-                    </div>
-                </div>
+               
+              
             </aside>
         </div>
     <!-- MAIN SECTION -->

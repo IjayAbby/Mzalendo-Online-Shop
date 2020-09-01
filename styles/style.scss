@@ -29,6 +29,28 @@
 .price-tag{
     color: $pinkColor;
 }
+.arrows {
+  
+    margin-top: 10vh;
+}
+.test1 {
+    font-weight: bolder;
+    color: $pinkColor;
+    font-size: 7vh;
+    float: left;
+}
+
+.test2 {
+    font-weight: bolder;
+    color: $pinkColor;
+    font-size: 7vh;
+    float: right;
+}
+.new-tag {
+    color: $pinkColor;
+    font-weight: bolder;
+    margin-bottom: 2vh;
+}
 
 .price-icon {
     font-weight: lighter;
@@ -180,38 +202,89 @@ select {
 }
 
 .image-width {
-    width: 50%;
-    margin-left: 250px;
-    margin-top: 20px;
+    width: 70%;
+    margin-left: 10vw;
+    // margin-left: 250px;
+    // margin-top: 20px;
 }
 
 .section-hot-ads {
     // border-bottom: 2px solid black;
-    margin-bottom: 20px;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
 }
+
+.slide-in-elliptic-bottom-fwd {
+    -webkit-animation: slide-in-elliptic-bottom-fwd 0.7s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-elliptic-bottom-fwd 0.7s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  
+  @-webkit-keyframes slide-in-elliptic-bottom-fwd {
+    0% {
+      -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
+      transform: translateY(600px) rotateX(30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+      transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% -1400px;
+      transform-origin: 50% -1400px;
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-elliptic-bottom-fwd {
+    0% {
+      -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
+      transform: translateY(600px) rotateX(30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+      transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% -1400px;
+      transform-origin: 50% -1400px;
+      opacity: 1;
+    }
+  }
+
 
 .ads-title {
  text-align: center;
  color: $pinkColor;
  font-weight: bold;
- margin-top: 8vh;
+ margin-top: 5vh;
+ margin-bottom: 5vh;
  margin-left: 3vw;
  font-size: x-large;  
 }
 
 .products {
     margin-top: 8vh;
-    background-color: #FBFBFF;
+    background-color: $grayColor;
+}
+
+.card {
+    transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(black, 0.5)
+}
+
+.row {
+    margin-bottom: 4vh;
+}
+.crafts {
+    margin-bottom: 5vh;
 }
 
 .shop-item {
-<<<<<<< HEAD
-    height: 7vh;
-    margin-bottom: 40vh;
-=======
     // height: 10vh;
     // margin-bottom: 40vh;
->>>>>>> 5ae7262a8ea71fa9a2deb62022c0522aedd728cd
     cursor: pointer;
 }
 
@@ -229,10 +302,6 @@ select {
 
 .ads-name,.text-pink {
     color: $pinkColor;
-}
-.ads-contents {
-    margin-right: 200px;
-    margin-top: 20px;
 }
 
 .price {

@@ -47,6 +47,30 @@
   color: #d35266;
 }
 
+.arrows {
+  margin-top: 10vh;
+}
+
+.test1 {
+  font-weight: bolder;
+  color: #d35266;
+  font-size: 7vh;
+  float: left;
+}
+
+.test2 {
+  font-weight: bolder;
+  color: #d35266;
+  font-size: 7vh;
+  float: right;
+}
+
+.new-tag {
+  color: #d35266;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+}
+
 .price-icon {
   font-weight: lighter;
   color: grey;
@@ -62,11 +86,11 @@ img {
 }
 
 .gray-color {
-  color: #888888;
+  color: #F7F7F7;
 }
 
 .bg-gray {
-  background-color: #888888;
+  background-color: #F7F7F7;
 }
 
 .pink-color {
@@ -225,35 +249,85 @@ select {
 }
 
 .image-width {
-  width: 50%;
-  margin-left: 250px;
-  margin-top: 20px;
+  width: 70%;
+  margin-left: 10vw;
 }
 
 .section-hot-ads {
-  margin-bottom: 20px;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.slide-in-elliptic-bottom-fwd {
+  -webkit-animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-elliptic-bottom-fwd {
+  0% {
+    -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
+    transform: translateY(600px) rotateX(30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% -1400px;
+    transform-origin: 50% -1400px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-elliptic-bottom-fwd {
+  0% {
+    -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
+    transform: translateY(600px) rotateX(30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% -1400px;
+    transform-origin: 50% -1400px;
+    opacity: 1;
+  }
 }
 
 .ads-title {
   text-align: center;
   color: #d35266;
   font-weight: bold;
-  margin-top: 8vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   margin-left: 3vw;
   font-size: x-large;
 }
 
 .products {
   margin-top: 8vh;
-  background-color: #FBFBFF;
+  background-color: #F7F7F7;
+}
+
+.card {
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  -webkit-box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  margin-bottom: 4vh;
+}
+
+.crafts {
+  margin-bottom: 5vh;
 }
 
 .shop-item {
-<<<<<<< HEAD
-  height: 7vh;
-  margin-bottom: 40vh;
-=======
->>>>>>> 5ae7262a8ea71fa9a2deb62022c0522aedd728cd
   cursor: pointer;
 }
 
@@ -271,11 +345,6 @@ select {
 
 .ads-name, .text-pink {
   color: #d35266;
-}
-
-.ads-contents {
-  margin-right: 200px;
-  margin-top: 20px;
 }
 
 .price {
