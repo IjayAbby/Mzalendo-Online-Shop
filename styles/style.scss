@@ -93,7 +93,7 @@ nav {
     }
     ul {
     @include flex();
-    margin: 0 70px;
+    margin: 0 20px;
     button {
         // border: 2px thin;
         padding: 10px;
@@ -284,7 +284,7 @@ select {
 
 .shop-item {
     // height: 10vh;
-    // margin-bottom: 40vh;
+    margin-bottom: 10vh;
     cursor: pointer;
 }
 

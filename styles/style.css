@@ -118,7 +118,7 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 70px;
+  margin: 0 20px;
 }
 
 nav ul button {
@@ -328,6 +328,7 @@ select {
 }
 
 .shop-item {
+  margin-bottom: 10vh;
   cursor: pointer;
 }
 
