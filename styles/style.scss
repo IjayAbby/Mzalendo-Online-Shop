@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import './variables';
 @import './mixin';
 
 
 
 //  GLOBAL
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    ;
+    font-weight: 300 !important;
+  }
 
 .font-gotham-light {
     font-family: $font-gotham-light;
@@ -20,6 +27,7 @@
 .white-color {
     color: $whiteColor;
 }
+
 
 
 img {
@@ -42,10 +50,10 @@ img {
     color: $pinkColor;
 }
 
-body {
+// body {
 
-    font-family: $font-gotham-light;
-}
+//     font-family: $font-gotham-light;
+// }
 // NAVIGATION
 nav {
     background-color: $darkColor;
@@ -56,7 +64,7 @@ nav {
     @include flex();
     margin: 0 70px;
     button {
-        border: 2px thin;
+        // border: 2px thin;
         padding: 10px;
         border-radius: 5px;
         background-color: $pinkColor;
@@ -88,9 +96,12 @@ nav {
 
 .hero-section {
     background-color: $pinkColor;
-    height: 60vh;
+    height: 50vh;
     justify-content: center;
+  
 }
+
+
 
 section {
     display: flex;
@@ -113,8 +124,35 @@ section {
     @include flex();
     flex-direction: column;
     margin: 0 auto;
+   padding: 17vh 0;
+   padding-bottom: 1vh;
 }
 
+.mzalendo {
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.mwacha {
+    font-size: 4vh;
+}
+input {
+    border-radius: 0.5vw;
+    border: none;
+    margin-right: 1vw;
+    width: 100%;
+}
+
+select {
+    border-radius: 0.5vw;
+    border: none;
+    margin-right: 1vw;
+    width: 100%;
+}
+
+.search-btn {
+    width: 100%;
+}
 .emphasy
  {
     margin-left: 120px;
@@ -123,11 +161,13 @@ section {
 .search-area {
     @include flex();
     justify-content: center;
-    padding: 10px;
+    // width: 100%;
+    // padding: 10px;
 }
 
+
 .search-contents {
-    padding: 15px;
+    padding: 2vh;
 }
 
 .image-width {
@@ -142,9 +182,22 @@ section {
 }
 
 .ads-title {
-    margin-left: 235px;
-    margin-top: 20px;
-    
+ text-align: left;
+ color: $pinkColor;
+ font-weight: bold;
+ margin-top: 3vh;
+ margin-left: 3vw;
+ font-size: large;  
+}
+
+.products {
+    margin-top: 8vh;
+    background-color: #FBFBFF;
+}
+
+.shop-item {
+    height: 10vh;
+    margin-bottom: 40vh;
 }
 
 .image-arrow {
@@ -171,7 +224,9 @@ section {
     margin-top: 7px;
 }
 .purchase {
-  border: 2px groove black;
+//   border: 2px groove black;
+    margin: 0.6vw;
+    border-radius: 0.5vw;
   padding: 10px;
   background-color: $pinkColor;
 }

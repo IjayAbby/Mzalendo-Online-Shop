@@ -7,22 +7,16 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-
   <link rel="stylesheet" href="styles/reset.css" />
   <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="styles/fonts">
   <title>Mzalendo Online Shop</title>
 </head>
 
 <body>
-  <nav class="navbar">
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <a class="navbar-brand" href="#">Mzalendo</a>
     <ul>
-      <li>
-        <a href="#">
-          <img src="assets/images/logo.png" class="logo" alt="" />
-          <h6 class="white-color">MZALENDO</h6>
-        </a>
-      </li>
+
       <li>
         <a class="list-height" href="#">
           <i class="fas fa-home list-space bg-pink"></i>
@@ -47,62 +41,64 @@
         </a>
       </li>
     </ul>
-    <ul>
-      <li>
-        <a class="" href="#">
-          <i class="far fa-envelope email gray-color"></i>
-        </a>
-      </li>
-      <li class="">
-        <a href="#">
-          <h6 class="list-space white-color">Ijay Abby</h6>
-          <i class="fas fa-user-circle gray-color"></i>
-        </a>
-      </li>
-    </ul>
+
   </nav>
 
-  <section class="hero-section">
 
+  <div class=" hero-section container-fluid">
     <div class="hero-text">
-      <h1 class="display-1 text-white">MZALENDO</h1>
-      <p class="h4 emphasy text-white">Mwacha mila ni mtumwa</p>
+      <h1 class="text-white text-center mzalendo">MZALENDO</h1>
+      <p class="text-white text-center mwacha">Mwacha mila ni mtumwa</p>
     </div>
+
     <form action="./search.html" method="get">
-      <div class="search-area">
-        <select name="departments" id="departments" class="search-contents">
-          <option disabled="" selected="" value="">All Departments</option>
-          <option value="shuka">Shukas</option>
-          <option value="beads">Beads</option>
-          <option value="shoes">Shoes</option>
-          <option value="carvings">Carvings</option>
-        </select>
-        <input type="text" id="search" class="search-contents" placeholder="What do you search for?">
-        <input type="text" id="county" class="search-contents" placeholder="Country">
-        <button type="submit" value="submit" class="btn btn-dark px-5 mx-2">Search</button>
+      <div class="container-fluid search-area">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <select name="departments" id="departments" class="search-contents">
+              <option disabled="" selected="" value="">All Departments</option>
+              <option value="shuka">Shukas</option>
+              <option value="beads">Beads</option>
+              <option value="shoes">Shoes</option>
+              <option value="carvings">Carvings</option>
+            </select>
+          </div>
+
+
+          <div class="col-sm-3">
+            <input type="text" id="search" class="search-contents" placeholder="What do you search for?">
+          </div>
+
+          <div class="col-sm-3">
+            <input type="text" id="county" class="search-contents" placeholder="Country">
+          </div>
+
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
+          </div>
+
+
+        </div>
       </div>
     </form>
+  </div>
 
-  </section>
 
-  <section class="section-hot-ads">
 
-    <h1 class="ads-title">HOT ADS</h1>
+
+  <!-- <section class="section-hot-ads">
+    <h1 class="ads-title">FEATURED PRODUCTS</h1>
     <div class="position-absolute">
       <button class="btn-left rounded-circle"><i class="fas fa-angle-left"></i></button>
       <button class="btn-right rounded-circle"><i class="fas fa-angle-right"></i></button>
     </div>
 
-    <div class="row p-0 m-0 position-relative">
-      <div class="col p-0 position-relative">
+    <div class="row">
+      <div class="col">
         <img src="assets/images/Shuka300.jpg" class="image-width ml-20" alt="" />
-        <div class="image-arrow position-absolute">
-          <!-- <button><i class="fas fa-angle-left"></i></button>
-            <button><i class="fas fa-angle-right"></i></button> -->
-          <!-- <button type="button" class="slider-image-button text-red background-black px-3 py-1"><i class="fas fa-angle-left"></i></button> -->
-        </div>
       </div>
-      <div class="col p-0 ads-contents">
+      <div class="col ads-contents">
         <h1 class="h4 ads-name">Collection of Maasai Shuka.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea
@@ -115,99 +111,107 @@
         <div class="price d-flex">
           <p class="purchase text-white">Ksh 800</p>
           <p class="purchase">
-            <i class="fas fa-shopping-cart text-white">Purchase Details</i>
+            <span class="text-white">
+              <i class="fas fa-shopping-cart text-white"></i>
+              Purchase Details
+            </span>
           </p>
         </div>
       </div>
   </section>
-  <hr>
+  <hr> -->
 
+  <div class="products container-fluid">
 
-  <!-- display items for sale  -->
-  <main class="display-items">
     <h1 class="h4">Shoes (Sandals)</h1>
-    <div class="grid-container">
-      <div class="grid-item">
-        <div>
-          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_16_38.png" class="shoe-image" alt="">
-        </div>
-        <div class="px-2">
-          <p class="h5">Maasai leather, beaded sandals</p>
-          <p>New</p>
-          <p>From:Narok, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon"></i>
-            <p class="h5">Ksh. 800</p>
-          </div>
-        </div>
 
-      </div>
-      <div class="grid-item">
-        <div>
-          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_19_02.png" class="shoe-image" alt="">
-        </div>
-        <div class="px-2">
-          <p class="h5">Maasai leather, beaded sandals</p>
-          <p>New</p>
-          <p>From:Narok, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon"></i>
-            <p class="h5">Ksh. 800</p>
+    <div class="row">
+
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
+          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_16_38.png" class="shoe-image" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Maasai leather, beaded sandals</h5>
+            <p>New</p>
+            <p>From:Narok, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon"></i>
+              <p class="h5">Ksh. 800</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
-          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_20_31.png" class="shoe-image" alt="">
-        </div>
-        <div class="px-2">
-          <p class="h5">Maasai leather, beaded sandals</p>
-          <p>New</p>
-          <p>From:Narok, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon"></i>
-            <p class="h5">Ksh. 800</p>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
+          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_19_02.png" class="card-img-top shoe-image"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maasai leather, beaded sandals</h5>
+            <p>New</p>
+            <p>From:Narok, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon"></i>
+              <p class="h5">Ksh. 800</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
-          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_22_31.png" class="shoe-image" alt="">
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
+          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_20_31.png" class="card-img-top shoe-image"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maasai leather, beaded sandals</h5>
+            <p>New</p>
+            <p>From:Narok, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon"></i>
+              <p class="h5">Ksh. 800</p>
+            </div>
+          </div>
         </div>
-        <div class="px-2">
-        <p class="h5">Maasai leather, beaded sandals</p>
-        <p>New</p>
-        <p>From:Narok, Kenya</p>
-        <div class="price d-flex justify-content-between my-3">
-          <i class="far fa-plus-square plus-icon"></i>
-          <p class="h5">Ksh. 800</p>
+      </div>
+
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
+          <img src="assets/images/screenshot-www.google.com-2020.08.30-00_22_31.png" class="card-img-top shoe-image"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maasai leather, beaded sandals</h5>
+            <p>New</p>
+            <p>From:Narok, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon"></i>
+              <p class="h5">Ksh. 800</p>
+            </div>
+          </div>
         </div>
-         </div>
       </div>
     </div>
 
-    <h1>Maasai Bead(Bracelet, Necklace, belt, beads)</h1>
-    <div class="grid-container">
-      <div class="grid-item">
-        <div>
+
+    <h1 class="h4">Maasai Bead(Bracelet, Necklace, belt, beads)</h1>
+    <div class="row">
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/bead2.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Maasai beaded bracelet</p>
+        <div class="card-body">
+          <h5 class="card-title">Maasai beaded bracelet</h5>
           <p>New</p>
           <p>From:Narok, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
             <i class="far fa-plus-square plus-icon"></i>
             <p class="h5">Ksh. 1000</p>
-          </div> 
+          </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/belt.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Maasai leather, beaded belt</p>
+        <div class="card-body">
+          <h5 class="card-title">Maasai leather, beaded belt</h5>
           <p>New</p>
           <p>From:Kajiado, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
@@ -216,12 +220,12 @@
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/bead4.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Maasai beaded necklace</p>
+        <div class="card-body">
+          <h5 class="card-title">Maasai beaded necklace</h5>
           <p>New</p>
           <p>From:Nairobi, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
@@ -230,12 +234,12 @@
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/bead5.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Maasai beaded anklet</p>
+        <div class="card-body">
+          <h5 class="card-title">Maasai beaded anklet</h5>
           <p>New</p>
           <p>From:Turkana, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
@@ -245,28 +249,28 @@
         </div>
       </div>
     </div>
-    <h1>Crafts (The big five)</h1>
-    <div class="grid-container">
-      <div class="grid-item">
-        <div>
+    <h1 class="h4">Crafts (The big five)</h1>
+    <div class="row">
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/cheetar.jpeg" class="shoe-image" alt="">
         </div>
-        `<div class="px-2">
-          <p class="h5">Wooden Cheetah Carving</p>
+        <div class="card-body">
+          <h5 class="card-title">Wooden Cheetah Carving</h5>
           <p>New</p>
           <p>From:Kisumu, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
             <i class="far fa-plus-square plus-icon"></i>
             <p class="h5">Ksh. 10,000</p>
           </div>
-         </div>
+        </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/rhino.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Wooden Rhino Carving</p>
+        <div class="card-body">
+          <h5 class="card-title">Wooden Rhino Carving</h5>
           <p>New</p>
           <p>From:Mombasa, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
@@ -275,12 +279,12 @@
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/giraffe.jpg" class="shoe-image" alt="">
         </div>
-        <div class="px-2">
-          <p class="h5">Wooden Carving Giraffe</p>
+        <div class="card-body">
+          <h5 class="card-title">Wooden Carving Giraffe</h5>
           <p>New</p>
           <p>From:Busia, Kenya</p>
           <div class="price d-flex justify-content-between my-3">
@@ -289,22 +293,26 @@
           </div>
         </div>
       </div>
-      <div class="grid-item">
-        <div>
+      <div class="col-6 col-md-3 shop-item">
+        <div class="card">
           <img src="assets/images/big-five.jpeg" class="shoe-image" alt="">
         </div>
-        <div class="px-2"> 
-        <p class="h5">Wooden Big-Five Carving</p>
-        <p>New</p>
-        <p>From:Uasin Gishu, Kenya</p>
-        <div class="price d-flex justify-content-between my-3">
-          <i class="far fa-plus-square plus-icon"></i>
-          <p class="h5">Ksh. 800</p>
+        <div class="card-body">
+          <h5 class="card-title">Wooden Big-Five Carving</h5>
+          <p>New</p>
+          <p>From:Uasin Gishu, Kenya</p>
+          <div class="price d-flex justify-content-between my-3">
+            <i class="far fa-plus-square plus-icon"></i>
+            <p class="h5">Ksh. 800</p>
+          </div>
         </div>
       </div>
-      </div>
     </div>
-  </main>
+
+  </div>
+
+
+
   <hr>
   <footer>
     <div class="row p-0 m-0">
@@ -334,7 +342,7 @@
     <div class="row p-0 m-0">
       <div class="col d-flex justify-content-center  my-3">
         <p class="ml-2">
-         <small> Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby</small>
+          <small> Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby</small>
         </p>
       </div>
       <div class="col social-icons my-2 d-flex justify-content-end">
@@ -344,18 +352,18 @@
         <a href="#"><i class="text-muted mr-2 fab fa-linkedin plus-icon mr-4"></i></a>
       </div>
     </div>
-  
+
   </footer>
-  
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>

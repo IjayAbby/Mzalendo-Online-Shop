@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300 !important;
+}
+
 .font-gotham-light {
   font-family: font-gotham-light;
 }
@@ -34,10 +40,6 @@ img {
   color: #d35266;
 }
 
-body {
-  font-family: font-gotham-light;
-}
-
 nav {
   background-color: #383838;
 }
@@ -54,7 +56,6 @@ nav ul {
 }
 
 nav ul button {
-  border: 2px thin;
   padding: 10px;
   border-radius: 5px;
   background-color: #d35266;
@@ -89,7 +90,7 @@ nav ul .email {
 
 .hero-section {
   background-color: #d35266;
-  height: 60vh;
+  height: 50vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -132,6 +133,35 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
+  padding: 17vh 0;
+  padding-bottom: 1vh;
+}
+
+.mzalendo {
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+.mwacha {
+  font-size: 4vh;
+}
+
+input {
+  border-radius: 0.5vw;
+  border: none;
+  margin-right: 1vw;
+  width: 100%;
+}
+
+select {
+  border-radius: 0.5vw;
+  border: none;
+  margin-right: 1vw;
+  width: 100%;
+}
+
+.search-btn {
+  width: 100%;
 }
 
 .emphasy {
@@ -145,11 +175,10 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
 }
 
 .search-contents {
-  padding: 15px;
+  padding: 2vh;
 }
 
 .image-width {
@@ -163,8 +192,22 @@ section {
 }
 
 .ads-title {
-  margin-left: 235px;
-  margin-top: 20px;
+  text-align: left;
+  color: #d35266;
+  font-weight: bold;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  font-size: large;
+}
+
+.products {
+  margin-top: 8vh;
+  background-color: #FBFBFF;
+}
+
+.shop-item {
+  height: 10vh;
+  margin-bottom: 40vh;
 }
 
 .image-arrow {
@@ -193,7 +236,8 @@ section {
 }
 
 .purchase {
-  border: 2px groove black;
+  margin: 0.6vw;
+  border-radius: 0.5vw;
   padding: 10px;
   background-color: #d35266;
 }
