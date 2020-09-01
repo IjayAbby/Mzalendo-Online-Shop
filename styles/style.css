@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 @font-face {
   font-family: gotham-bold;
   src: url(/styles/fonts/GothamBold.ttf);
@@ -79,6 +78,7 @@ img {
 }
 
 body {
+  height: 100%;
   font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif, font-gotham-bold, "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif, "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
@@ -217,6 +217,7 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5vh;
 }
 
 .search-contents {
@@ -248,7 +249,7 @@ select {
 }
 
 .shop-item {
-  height: 10vh;
+  height: 7vh;
   margin-bottom: 40vh;
   cursor: pointer;
 }
@@ -306,6 +307,10 @@ select {
 
 .plus-icon {
   font-size: 30px;
+}
+
+footer {
+  margin-top: 10vh;
 }
 
 .footer-logo {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+// @import url('https://fonts.googleapis.com/css?family=Ubuntu:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import './variables';
 @import './mixin';
 @import './typography';
@@ -60,7 +60,7 @@ img {
 }
 
 body {
-
+    height: 100%;
     font-family: $font-gotham-light , $font-gotham-bold , $font-helvetica , $font-helvetica-light;
 }
 // NAVIGATION
@@ -140,6 +140,7 @@ section {
 .mzalendo {
     font-size: 8vh;
     font-weight: bold;
+
 }
 
 .mwacha {
@@ -170,8 +171,7 @@ select {
 .search-area {
     @include flex();
     justify-content: center;
-    // width: 100%;
-    // padding: 10px;
+    margin-top: 5vh;
 }
 
 
@@ -205,7 +205,7 @@ select {
 }
 
 .shop-item {
-    height: 10vh;
+    height: 7vh;
     margin-bottom: 40vh;
     cursor: pointer;
 }
@@ -270,6 +270,9 @@ select {
 }
 
 // Footer section
+footer {
+    margin-top: 10vh;
+}
 .footer-logo {
     width: 25%;
     margin: 0 auto;
