@@ -1,10 +1,14 @@
 @import './variables';
 @import './mixin';
+@import './typography';
 
 
 
 //  GLOBAL
 
+.font-gotham-bold {
+    font-family: $font-gotham-bold;
+}
 .font-gotham-light {
     font-family: $font-gotham-light;
   }
@@ -44,7 +48,7 @@ img {
 
 body {
 
-    font-family: $font-gotham-light;
+    font-family: $font-gotham-light , $font-gotham-bold , $font-helvetica , $font-helvetica-light;
 }
 // NAVIGATION
 nav {

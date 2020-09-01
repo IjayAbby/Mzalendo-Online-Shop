@@ -1,13 +1,42 @@
+@font-face {
+  font-family: gotham-bold;
+  src: url(/styles/fonts/GothamBold.ttf);
+}
+
+@font-face {
+  font-family: gotham-light;
+  src: url(/styles/fonts/GothamRoundedLight_21020.ttf);
+}
+
+@font-face {
+  font-family: helvetica-light;
+  src: url(/styles/fonts/HelveticaNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(/styles/fonts/HelveticaNeue-Bold.ttf);
+}
+
+@font-face {
+  font-family: helvetica-medium;
+  src: url(/styles/fonts/HelveticaNeue-Medium.ttf);
+}
+
+.font-gotham-bold {
+  font-family: font-gotham-bold;
+}
+
 .font-gotham-light {
-  font-family: font-gotham-light;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .font-helvetica {
-  font-family: font-helvetica;
+  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .font-helvetica-light {
-  font-family: font-helvetica-light;
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .white-color {
@@ -35,7 +64,7 @@ img {
 }
 
 body {
-  font-family: font-gotham-light;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif, font-gotham-bold, "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif, "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 nav {
