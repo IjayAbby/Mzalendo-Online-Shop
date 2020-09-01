@@ -14,144 +14,207 @@
 </head>
 
 <body>
-   
+
     <nav class="navbar navbar-expand-sm fixed-top">
-        
+
         <ul>
             <li>
                 <a href="#">
-                  <img src="assets/images/logo.png" class="logo" alt="" />
-                  <h6 class="white-color ">MZALENDO</h6>
+                    <img src="assets/images/logo.png" class="logo" alt="" />
+                    <h6 class="white-color ">MZALENDO</h6>
                 </a>
-              </li>
-          <li>
-            <a class="list-height" href="#">
-              <i class="fas fa-home list-space bg-pink"></i>
-              <h6 class="pink-color">HOME</h6>
-            </a>
-          </li>
-          <li class="d-none d-sm-block">
-            <a class="list-height" href="#">
-              <i class="far fa-sliders-h-square"></i>
-              <h6 class="gray-color">COLLECTIONS</h6>
-            </a>
-          </li>
-          <li class="d-none d-sm-block">
-            <a class="list-height" href="#">
-              <i class="fas fa-shopping-cart list-space gray-color"></i>
-              <h6 class="gray-color">PURCHASE LIST</h6>
-            </a>
-          </li>
-          <li class="d-none d-sm-block">
-            <a href="#">
-              <button class="white-color">POST AN AD</button>
-            </a>
-          </li>
+            </li>
+            <li>
+                <a class="list-height" href="#">
+                    <i class="fas fa-home list-space bg-pink"></i>
+                    <h6 class="pink-color">HOME</h6>
+                </a>
+            </li>
+            <li class="d-none d-sm-block">
+                <a class="list-height" href="#">
+                    <i class="far fa-sliders-h-square"></i>
+                    <h6 class="gray-color">COLLECTIONS</h6>
+                </a>
+            </li>
+            <li class="d-none d-sm-block">
+                <a class="list-height" href="#">
+                    <i class="fas fa-shopping-cart list-space gray-color"></i>
+                    <h6 class="gray-color">PURCHASE LIST</h6>
+                </a>
+            </li>
+            <li class="d-none d-sm-block">
+                <a href="#">
+                    <button class="white-color">POST AN AD</button>
+                </a>
+            </li>
         </ul>
-    
-      </nav>
 
-      <div class=" hero-section container-fluid">
+    </nav>
+
+    <div class=" hero-section container-fluid">
         <div class="hero-text">
-          <h1 class="text-white text-center mzalendo">MZALENDO</h1>
-          <p class="text-white text-center mwacha">Search around 12,000 items waiting to be sold!</p>
+            <h1 class="text-white text-center mzalendo">MZALENDO</h1>
+            <p class="text-white text-center mwacha">Search around 12,000 items waiting to be sold!</p>
         </div>
-    
+
         <form action="./search.html" method="get">
-          <div class="container-fluid search-area">
-            <div class="row">
-    
-              <div class="col-sm-3">
-                <select name="departments" id="departments" class="search-contents">
-                  <option disabled="" selected="" value="">All Departments</option>
-                  <option value="shuka">Shukas</option>
-                  <option value="beads">Beads</option>
-                  <option value="shoes">Shoes</option>
-                  <option value="carvings">Carvings</option>
-                </select>
-              </div>
-    
-    
-              <div class="col-sm-3">
-                <input type="text" id="search" class="search-contents" placeholder="What do you search for?">
-              </div>
-    
-              <div class="col-sm-3">
-                <input type="text" id="county" class="search-contents" placeholder="Country">
-              </div>
-    
-              <div class="col-sm-3">
-                <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
-              </div>
-    
-    
+            <div class="container-fluid search-area">
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <select name="departments" id="departments" class="search-contents">
+                            <option disabled="" selected="" value="">All Departments</option>
+                            <option value="shuka">Shukas</option>
+                            <option value="beads">Beads</option>
+                            <option value="shoes">Shoes</option>
+                            <option value="carvings">Carvings</option>
+                        </select>
+                    </div>
+
+
+                    <div class="col-sm-3">
+                        <input type="text" id="search" class="search-contents" placeholder="What do you search for?">
+                    </div>
+
+                    <div class="col-sm-3">
+                        <input type="text" id="county" class="search-contents" placeholder="Country">
+                    </div>
+
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
+                    </div>
+
+
+                </div>
             </div>
-          </div>
         </form>
-      </div>
+    </div>
 
 
 
 
 
-      <h1 class="ads-title">SEARCH PRODUCTS</h1>
+    <h1 class="ads-title">SEARCH PRODUCTS</h1>
     <div class="row main-section-search">
-    <div class="col-sm-3  d-sm-none d-md-block d-lg-block search-pane">
+        <div class="col-sm-3  d-sm-none d-md-block d-lg-block search-pane">
             <aside class="aside-section">
-                <!-- <div class="d-flex py-3 ">
-                    <input type="checkbox" id="carving" name="carving" value="carving">
-                    <label for="carving" class="ml-2">Carvings</label>
-                    <div class="aside-heading d-flex">
+                <div class="d-flex py-3 row ">
+                    <div class="col">
+                        <input type="checkbox" id="carving" name="carving" value="carving">
+                    </div>
+                    <div class="col">
+                        <label for="carving" class="ml-2">Carvings</label>
+                    </div>
+
+                    <div class="col">
                         <input type="checkbox" id="material" name="material" value="material">
+                    </div>
+                    <div class="col">
                         <label for="materials" class="ml-2">Materials</label>
                     </div>
-                </div> -->
+                    
+                   
+                </div>
+                    <!-- <div class="aside-heading d-flex row">
+                        <div class="col">
+                            <input type="checkbox" id="material" name="material" value="material">
+                        </div>
+                        <div class="col">
+                            <label for="materials" class="ml-2">Materials</label>
+                        </div>
+                        
+                       
+                    </div> -->
+                
                 <div class="row">
                     <div class="col-sm-6 col-md-12">
                         <h1 class="font-weight-bold py-1 border-bottom">Type</h1>
                         <div class="py-2 material-checkbox">
-                            <div class="py-1">
-                                <input type="checkbox" id="carving1" name="wood  margin-top: 10vh;en" value="Wooden">
-                                <label for="carving1" class="ml-2">Wooden</label><br>
+                            <div class="row py-1">
+                                <div class="col">
+                                    <input type="checkbox" id="carving1" name="wood" value="Wooden">
+                                </div>
+                                <div class="col"> <label for="carving1">Wooden </label></div>
+                               
+
+
                             </div>
-                            <div class="py-1">
-                                <input type="checkbox" id="carving2" name="metalic" value="Metalic">
-                                <label for="carving2" class="ml-2">Metalic</label><br>
+                            <div class="row py-1">
+                                <div class="col">  <input type="checkbox" id="carving2" name="metalic" value="Metalic"></div>
+                                <div class="col"> <label for="carving2" >Metalic</label></div>
+                             
+                               
+                               
                             </div>
-                            <div class="py-1">
-                                <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
-                                <label for="carving3" class="ml-2">Soap stone</label><br>
+                            <div class="row py-1">
+                                <div class="col">
+                                    <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
+                                </div>
+                                <div class="col">
+                                    <label for="carving3" >Soap stone</label>
+                                </div>
+                               
+                               
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-12">
                         <h1 class="font-weight-bold py-1 border-bottom">Price Range</h1>
                         <div class="py-2">
-                            <div class="py-1">
-                                <input type="checkbox" id="price1" name="price" value="Wooden">
-                                <label for="price1" class="ml-2">Ksh 100-1,000</label><br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="checkbox" id="price1" name="price" value="Wooden">
+                                </div>
+                                <div class="col">
+                                    <label for="price1" >Ksh 100-1,000</label>
+                                </div>
+                              
+                               
+                            
                             </div>
-                            <div class="py-1">
-                                <input type="checkbox" id="price2" name="price" value="Metalic">
-                                <label for="price2" class="ml-2">Ksh 1,000-5,000</label><br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="checkbox" id="price2" name="price" value="Metalic">
+                                </div>
+                                <div class="col">
+                                    <label for="price2" >Ksh 1,000-5,000</label>
+                                </div>
+                               
+                                
+                                
                             </div>
-                            <div class="py-1">
-                                <input type="checkbox" id="price3" name="price" value="Soap-stone">
-                                <label for="price3" class="ml-2">Ksh 5,000-10,000</label><br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="checkbox" id="price3" name="price" value="Soap-stone">
+                                </div>
+                                <div class="col">
+                                    <label for="price3" >Ksh 5,000-10,000</label><br>
+                                </div>
+                              
+                               
+                                
                             </div>
-                            <div class="py-1">
-                                <input type="checkbox" id="price3" name="price" value="Soap-stone">
-                                <label for="price3" class="ml-2">Ksh 10,000+</label><br>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="checkbox" id="price3" name="price" value="Soap-stone">
+                                </div>
+                                <div class="col">
+                                    <label for="price3" >Ksh 10,000+</label>
+                                </div>
+                                
+                               
+                               
                             </div>
                         </div>
                     </div>
                 </div>
-               
-              
+
+
             </aside>
         </div>
-    <!-- MAIN SECTION -->
-    <div class="col-sm-8 border-left border-right">
+        <!-- MAIN SECTION -->
+        <div class="col-sm-8 border-left border-right">
             <main>
                 <div>
                     <h1 class="py-3">
@@ -275,87 +338,87 @@
                     </li>
                 </ul>
             </main>
-    </div>
+        </div>
     </div>
 
     <footer class="border-top border-bottom">
         <div class="row">
-        <div class="col d-flex">
-            <div class="footer-logo-area col-4 pl-2">
-                <img src="assets/images/logo.png" class="footer-logo m-3" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, delectus et praesentium
-                    voluptatibus rerum veritatis ratione iste eveniet laborum sit ut modi expedita eum nostrum
-                    eligendi fugiat? Sapiente, nobis</p>
+            <div class="col d-flex">
+                <div class="footer-logo-area col-4 pl-2">
+                    <img src="assets/images/logo.png" class="footer-logo m-3" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel, delectus et praesentium
+                        voluptatibus rerum veritatis ratione iste eveniet laborum sit ut modi expedita eum nostrum
+                        eligendi fugiat? Sapiente, nobis</p>
+                </div>
+                <div class="col-4 pl-2">
+                    <h1 class="footer-heading text-pink m-2 py-2">
+                        CATEGORIES
+                    </h1>
+                    <ul>
+                        <li class="py-1 ml-4">Beads</li>
+                        <li class="py-1 ml-4">Belts</li>
+                        <li class="py-1 ml-4">Shoes</li>
+                        <li class="py-1 ml-4">Bracelets</li>
+                        <li class="py-1 ml-4">Necklace</li>
+                        <li class="py-1 ml-4">Anklets</li>
+                        <li class="py-1 ml-4">Carvings</li>
+                        <li class="py-1 ml-4">Shukas</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h1 class="footer-heading text-pink m-2 py-2">
+                        NAVIGATION
+                    </h1>
+                    <ul>
+                        <li class="py-1 ml-4">Nairobi</li>
+                        <li class="py-1 ml-4">Kisumu</li>
+                        <li class="py-1 ml-4">Mombasa</li>
+                        <li class="py-1 ml-4">Narok</li>
+                        <li class="py-1 ml-4">Kajiado</li>
+                        <li class="py-1 ml-4">Busia</li>
+                        <li class="py-1 ml-4">Turkana</li>
+                        <li class="py-1 ml-4">Nakuru</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-4 pl-2">
-                <h1 class="footer-heading text-pink m-2 py-2">
-                    CATEGORIES
-                </h1>
+            <div class="col-4 d-flex justify-content-around pl-2 mt-5">
                 <ul>
-                    <li class="py-1 ml-4">Beads</li>
-                    <li class="py-1 ml-4">Belts</li>
-                    <li class="py-1 ml-4">Shoes</li>
-                    <li class="py-1 ml-4">Bracelets</li>
-                    <li class="py-1 ml-4">Necklace</li>
-                    <li class="py-1 ml-4">Anklets</li>
-                    <li class="py-1 ml-4">Carvings</li>
-                    <li class="py-1 ml-4">Shukas</li>
+                    <li>
+                        <h1 class="ads-name my-3 py-1 footer-details ">COUNTRY</h1>
+                    </li>
+                    <li>
+                        <h1 class="ads-name my-3 py-1 footer-details">LANGUAGE</h1>
+                    </li>
+                    <li>
+                        <h1 class="ads-name my-3 py-1 footer-details">CURRENCY</h1>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p class="footer-paragraph my-3 py-1">Kenya</p>
+                    </li>
+                    <li>
+                        <p class="footer-paragraph my-3 py-1">English</p>
+                    </li>
+                    <li>
+                        <p class="footer-paragraph my-3 py-1">Kenyan Shillings</p>
+                    </li>
                 </ul>
             </div>
-            <div class="col-4">
-                <h1 class="footer-heading text-pink m-2 py-2">
-                    NAVIGATION
-                </h1>
-                <ul>
-                    <li class="py-1 ml-4">Nairobi</li>
-                    <li class="py-1 ml-4">Kisumu</li>
-                    <li class="py-1 ml-4">Mombasa</li>
-                    <li class="py-1 ml-4">Narok</li>
-                    <li class="py-1 ml-4">Kajiado</li>
-                    <li class="py-1 ml-4">Busia</li>
-                    <li class="py-1 ml-4">Turkana</li>
-                    <li class="py-1 ml-4">Nakuru</li>
-                </ul>
+        </div>
+        <div class="row">
+            <div class="col justify-content-center my-3">
+                <p>
+                    Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby.
+                </p>
+            </div>
+            <div class="col social-icons justify-content-around my-2">
+                <a href="#"><i class="text-muted fab fa-instagram-square plus-icon"></i></a>
+                <a href="#"><i class="text-muted fab fa-facebook-square plus-icon"></i></a>
+                <a href="#"><i class="text-muted fab fa-twitter-square plus-icon"></i></a>
+                <a href="#"><i class="text-muted fab fa-linkedin plus-icon"></i></a>
             </div>
         </div>
-        <div class="col-4 d-flex justify-content-around pl-2 mt-5">
-            <ul>
-                <li>
-                    <h1 class="ads-name my-3 py-1 footer-details ">COUNTRY</h1>
-                </li>
-                <li>
-                    <h1 class="ads-name my-3 py-1 footer-details">LANGUAGE</h1>
-                </li>
-                <li>
-                    <h1 class="ads-name my-3 py-1 footer-details">CURRENCY</h1>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p class="footer-paragraph my-3 py-1">Kenya</p>
-                </li>
-                <li>
-                    <p class="footer-paragraph my-3 py-1">English</p>
-                </li>
-                <li>
-                    <p class="footer-paragraph my-3 py-1">Kenyan Shillings</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col justify-content-center my-3">
-            <p>
-                Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby.
-            </p>
-        </div>
-        <div class="col social-icons justify-content-around my-2">
-        <a href="#"><i class="text-muted fab fa-instagram-square plus-icon"></i></a>
-        <a href="#"><i class="text-muted fab fa-facebook-square plus-icon"></i></a>
-        <a href="#"><i class="text-muted fab fa-twitter-square plus-icon"></i></a>
-        <a href="#"><i class="text-muted fab fa-linkedin plus-icon"></i></a>
-        </div>
-    </div>
     </footer>
 
 
