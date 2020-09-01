@@ -48,6 +48,12 @@
   color: #d35266;
 }
 
+.new-tag {
+  color: #d35266;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+}
+
 .price-icon {
   font-weight: lighter;
   color: grey;
@@ -181,7 +187,7 @@ section {
 
 .mzalendo {
   font-size: 8vh;
-  font-weight: bold;
+  font-style: font-gotham-bold !important;
 }
 
 .mwacha {
