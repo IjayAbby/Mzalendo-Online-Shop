@@ -86,11 +86,11 @@ img {
 }
 
 .gray-color {
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 
 .bg-gray {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .pink-color {
@@ -180,8 +180,6 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 5px thin white;
-  border-radius: 10px;
 }
 
 .first-btn {
@@ -258,45 +256,6 @@ select {
   margin-bottom: 7vh;
 }
 
-.slide-in-elliptic-bottom-fwd {
-  -webkit-animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-elliptic-bottom-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes slide-in-elliptic-bottom-fwd {
-  0% {
-    -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
-    transform: translateY(600px) rotateX(30deg) scale(0);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) rotateX(0) scale(1);
-    transform: translateY(0) rotateX(0) scale(1);
-    -webkit-transform-origin: 50% -1400px;
-    transform-origin: 50% -1400px;
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-elliptic-bottom-fwd {
-  0% {
-    -webkit-transform: translateY(600px) rotateX(30deg) scale(0);
-    transform: translateY(600px) rotateX(30deg) scale(0);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) rotateX(0) scale(1);
-    transform: translateY(0) rotateX(0) scale(1);
-    -webkit-transform-origin: 50% -1400px;
-    transform-origin: 50% -1400px;
-    opacity: 1;
-  }
-}
-
 .ads-title {
   text-align: center;
   color: #d35266;
@@ -309,14 +268,12 @@ select {
 
 .products {
   margin-top: 8vh;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .card {
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
-  -webkit-box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
 }
 
 .row {
@@ -344,7 +301,8 @@ select {
   margin-left: 1150px;
 }
 
-.ads-name, .text-pink {
+.ads-name,
+.text-pink {
   color: #d35266;
 }
 
@@ -413,7 +371,7 @@ footer {
 }
 
 .aside-section {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .material-checkbox {
@@ -424,8 +382,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
 }
 
 .main-section-search {
