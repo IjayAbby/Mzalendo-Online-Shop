@@ -1,14 +1,15 @@
 # HTML/CSS Capstone: Mzalendo-Online-Shop
 
-> This project is an ecommerce website for selling African products like beads, carvings and traditional gaments .
+> The HTML & CSS Capstone Project is based on an online shop for electronics where I was requested to personalise the website.Mzalendo Online Shop is an ecommerce website for selling African products like beads, carvings and traditional gaments.
+ 
 
-![screenshot](assets/images/global-summit-2020.png)
+![mzalendo-online-shop](https://user-images.githubusercontent.com/43843720/91908574-7639f680-ecb4-11ea-88b2-2a484990fba2.jpg)
 
 I was given this design by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)'s to follow, mirroring its structure, typography and colors as I built my own mzalendo website.
 
 > I am using logo and content from [this](https://hatchful.shopify.com/onboarding/pick-space) website.
 
-![screenshot](assets/images/light-logo.svg)
+![logo](https://user-images.githubusercontent.com/43843720/91909128-52c37b80-ecb5-11ea-8ef3-ef390b3fd6ef.png)
 
 
 ## Video Presentation
@@ -30,7 +31,9 @@ Watch my video [presentation](https://www.loom.com/share/b500106067f94b6fb236ab3
 
 ## Live Demo
 
-See the project in action by visiting the
+[Live Demo Link for index.html]
+[Live Demo Link for search-page.html]
+
 
 ## Getting Started
 
@@ -73,7 +76,7 @@ Contributions, issues and feature requests are always welcome!
 
 I love meeting other developers, especially ones that give me advice on how to improve my work.
 
-Drop me an [issue]
+Feel free to check the [issues page](https://github.com/IjayAbby/Mzalendo-Online-Shop/issues).
 
 ## Show your support
 
@@ -86,6 +89,8 @@ Finally, if you've read this far, don't forget to give this repo a ⭐️. They'
 - README Content was taken from [Amita Roy](https://github.com/Amita-Roy), one of my friends.
 
 - Icons were taken from https://fontawesome.com/
+
+- The use of demo morkup from (https://smartmockups.com/)
 
 
 
