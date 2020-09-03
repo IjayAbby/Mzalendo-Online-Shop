@@ -1,34 +1,34 @@
-
 @font-face {
-    font-family: gotham-bold;
-    src: url(/styles/fonts/GothamBold.ttf)
+  font-family: gotham-bold;
+  src: url(/styles/fonts/GothamBold.ttf);
 }
 
 @font-face {
-    font-family: gotham-light;
-    src: url(/styles/fonts/GothamRoundedLight_21020.ttf)
+  font-family: gotham-light;
+  src: url(/styles/fonts/GothamRoundedLight_21020.ttf);
 }
 
 @font-face {
-    font-family: helvetica-light;
-    src: url(/styles/fonts/HelveticaNeue-Light.ttf)
+  font-family: helvetica-light;
+  src: url(/styles/fonts/HelveticaNeue-Light.ttf);
 }
 
 @font-face {
-    font-family: helvetica-bold;
-    src: url(/styles/fonts/HelveticaNeue-Bold.ttf);
+  font-family: helvetica-bold;
+  src: url(/styles/fonts/HelveticaNeue-Bold.ttf);
 }
 
 @font-face {
-    font-family: helvetica-medium;
-    src: url(/styles/fonts/HelveticaNeue-Medium.ttf)
+  font-family: helvetica-medium;
+  src: url(/styles/fonts/HelveticaNeue-Medium.ttf);
 }
 
-$font-helvetica: "helvetica-medium","helvetica-light","helvetica-bold",helvetica,arial,sans-serif;
+$font-helvetica: "helvetica-medium", "helvetica-light", "helvetica-bold",
+  helvetica, arial, sans-serif;
 
-$font-helvetica-light: "helvetica-light","helvetica-medium","helvetica-bold", helvetica, arial, sans-serif;
+$font-helvetica-light: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 
-$font-helvetica-bold: "helvetica-bold", "helvetica-medium" , "helvetica-light", helvetica, arial, sans-serif;
+$font-helvetica-bold: "helvetica-bold", "helvetica-medium", "helvetica-light", helvetica, arial, sans-serif;
 
 $font-gotham: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 

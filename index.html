@@ -9,13 +9,12 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <link rel="stylesheet" href="styles/reset.css" />
   <link rel="stylesheet" href="styles/style.css" />
-
   <title>Mzalendo Online Shop</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm fixed-top">
-    <a class="navbar-brand" href="#">Mzalendo</a>
+
     <ul>
       <li>
         <a href="#">
@@ -30,30 +29,30 @@
           <h6 class="pink-color">HOME</h6>
         </a>
       </li>
-      <li class="">
+      <li class="d-none d-sm-block">
         <a class="list-height" href="#">
           <i class="far fa-sliders-h-square"></i>
           <h6 class="gray-color">COLLECTIONS</h6>
         </a>
       </li>
-      <li class="">
+      <li class="d-none d-sm-block">
         <a class="list-height" href="#">
           <i class="fas fa-shopping-cart list-space gray-color"></i>
-          <h6 class="gray-color">PURCHASE LIST</h6>
+          <h6 class="gray-color">CART</h6>
         </a>
       </li>
-      <li>
-        <a href="#">
-          <button class="white-color">POST AN AD</button>
-        </a>
+      <li class="d-none d-sm-block">
+          <button class="white-color" type="button">
+            POST AN AD
+          </button>
       </li>
     </ul>
 
   </nav>
 
-
   <div class=" hero-section container-fluid">
-    <div class="hero-text">
+    <div class="hero-text m-30">
+
       <h1 class="text-white text-center mzalendo">MZALENDO</h1>
       <p class="text-white text-center mwacha">Mwacha mila ni mtumwa</p>
     </div>
@@ -82,124 +81,126 @@
           </div>
 
           <div class="col-sm-3">
-            <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
+            <button type="submit" value="submit" class="btn btn-dark search-contents search-btn">Search</button>
+
           </div>
-
-
         </div>
       </div>
     </form>
   </div>
 
-
-
-
-  <!-- <section class="section-hot-ads">
-    <h1 class="ads-title">FEATURED PRODUCTS</h1>
-    <div class="position-absolute">
-      <button class="btn-left rounded-circle"><i class="fas fa-angle-left"></i></button>
-      <button class="btn-right rounded-circle"><i class="fas fa-angle-right"></i></button>
-    </div>
+  <h1 class="ads-title">HOT ADS</h1>
+  <section class="section-hot-ads slide-in-elliptic-bottom-fwd ">
 
     <div class="row">
-      <div class="col">
-        <img src="assets/images/Shuka300.jpg" class="image-width ml-20" alt="" />
+      <div class="col-4">
+        <img src="assets/images/Shuka300.jpg" class="image-width" alt="" />
       </div>
-      <div class="col ads-contents">
-        <h1 class="h4 ads-name">Collection of Maasai Shuka.</h1>
+      <div class="col-8 ads-contents">
+        <h2 class="h4 ads-name font-weight-bold">Collection of Maasai Shuka.</h2>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea
-          porro expedita rerum est a suscipit error eius voluptates harum cum
-          voluptate doloremque veniam vel, doloribus molestias iure ipsum
-          quaerat
+          Often red with black stripes, shuka cloth is affectionately known as the “African blanket” and is worn by the
+          Maasai people of East Africa.It's known to be durable, strong, and thick — protecting the Maasai from the
+          harsh weather and terrain of the savannah.
         </p>
         <h6 class="mt-3">By:Kyendereta</h6>
-        <h4>Location:Narok County</h4>
+        <h4 class="mt-3">Location:Narok County</h4>
         <div class="price d-flex">
-          <p class="purchase text-white">Ksh 800</p>
+          <p class="purchase text-white font-weight-bold">Ksh 800</p>
           <p class="purchase">
             <span class="text-white">
-              <i class="fas fa-shopping-cart text-white"></i>
+              <i class="fas fa-shopping-cart text-white font-weight-bold"></i>
               Purchase Details
             </span>
           </p>
         </div>
       </div>
+    </div>
   </section>
   <hr> -->
 
   <h1 class="ads-title">FEATURED PRODUCTS</h1>
   <div class="products container-fluid">
-
-    <h1 class="h4">Shoes (Sandals)</h1>
+    
+    <div class="d-flex">
+      <h1 class="h5 font-weight-bold text-muted">Shoes</h1>
+      <h6 class="py-1 px-2 text-muted">(sandals)</h6>
+    </div>
     <div class="dropdown-divider"></div>
 
     <div class="row">
 
-      <div class="col-6 col-md-3 shop-item">
-        <div class="card">
+      <div class="col-6 col-md-3 ">
+        <div class="card shop-item">
           <img src="assets/images/screenshot-www.google.com-2020.08.30-00_16_38.png" class="shoe-image" alt="">
           <div class="card-body">
             <h5 class="card-title">Maasai leather, beaded sandals</h5>
-            <p>New</p>
+            <p class="new-tag font-weight-bold">New</p>
             <p>From:Narok, Kenya</p>
             <div class="price d-flex justify-content-between my-3">
               <i class="far fa-plus-square plus-icon price-icon"></i>
-              <div class="h5 price-tag">Ksh. 800</div>
+              <div class="h5 price-tag font-weight-bold">Ksh. 800</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-3 shop-item">
-        <div class="card">
+      
+      <div class="col-6 col-md-3 ">
+        <div class="card shop-item">
           <img src="assets/images/screenshot-www.google.com-2020.08.30-00_19_02.png" class="card-img-top shoe-image"
             alt="...">
           <div class="card-body">
             <h5 class="card-title">Maasai leather, beaded sandals</h5>
-            <p>New</p>
+            <p class="new-tag font-weight-bold">New</p>
             <p>From:Narok, Kenya</p>
             <div class="price d-flex justify-content-between my-3">
               <i class="far fa-plus-square plus-icon  price-icon"></i>
-              <p class="h5 price-tag">Ksh. 800</p>
+              <p class="h5 price-tag font-weight-bold">Ksh. 800</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-3 shop-item">
-        <div class="card">
+      <div class="col-6 col-md-3 ">
+        <div class="card shop-item">
           <img src="assets/images/screenshot-www.google.com-2020.08.30-00_20_31.png" class="card-img-top shoe-image"
             alt="...">
           <div class="card-body">
             <h5 class="card-title">Maasai leather, beaded sandals</h5>
-            <p>New</p>
+            <p class="new-tag font-weight-bold">New</p>
             <p>From:Narok, Kenya</p>
             <div class="price d-flex justify-content-between my-3">
               <i class="far fa-plus-square plus-icon  price-icon"></i>
-              <p class="h5 price-tag">Ksh. 800</p>
+              <p class="h5 price-tag font-weight-bold">Ksh. 800</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-6 col-md-3 shop-item">
-        <div class="card">
+
+      <div class="col-6 col-md-3 ">
+        <div class="card shop-item">
           <img src="assets/images/screenshot-www.google.com-2020.08.30-00_22_31.png" class="card-img-top shoe-image"
             alt="...">
           <div class="card-body">
             <h5 class="card-title">Maasai leather, beaded sandals</h5>
-            <p>New</p>
+
+            <p class="new-tag font-weight-bold">New</p>
             <p>From:Narok, Kenya</p>
             <div class="price d-flex justify-content-between my-3">
               <i class="far fa-plus-square plus-icon  price-icon"></i>
-              <p class="h5 price-tag">Ksh. 800</p>
+              <p class="h5 price-tag font-weight-bold">Ksh. 800</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="d-flex">
+      <h1 class="h5 font-weight-bold text-muted">Maasai Bead</h1>
+      <h6 class="py-1 px-2 text-muted">(Bracelet, Necklace, belt, beads)</h6>
+    </div>
 
-    <h1 class="h4">Maasai Bead(Bracelet, Necklace, belt, beads)</h1>
     <div class="dropdown-divider"></div>
 
 
@@ -207,118 +208,143 @@
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/bead2.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Maasai beaded bracelet</h5>
-          <p>New</p>
-          <p>From:Narok, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 1000</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Maasai beaded bracelet</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Narok, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 1000</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/belt.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Maasai leather, beaded belt</h5>
-          <p>New</p>
-          <p>From:Kajiado, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 900</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Maasai leather, beaded belt</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Kajiado, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 9000</p>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/bead4.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Maasai beaded necklace</h5>
-          <p>New</p>
-          <p>From:Nairobi, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 1600</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Maasai beaded necklace</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Nairobi, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 1600</p>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/bead5.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Maasai beaded anklet</h5>
-          <p>New</p>
-          <p>From:Turkana, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 3000</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Maasai beaded anklet</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Turkana, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 3000</p>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
-    <h1 class="h4">Crafts (The big five)</h1>
 
+
+    <div class="d-flex">
+      <h1 class="h5 font-weight-bold text-muted">Crafts</h1>
+      <h6 class="py-1 px-2 text-muted">(The big five)</h6>
+    </div>
     <div class="dropdown-divider"></div>
 
-    <div class="row">
+    <div class="row crafts">
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/cheetar.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Wooden Cheetah Carving</h5>
-          <p>New</p>
-          <p>From:Kisumu, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 10,000</p>
+
+          <div class="card-body">
+            <h5 class="card-title">Wooden Cheetah Carving</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Kisumu, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 10000</p>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/rhino.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Wooden Rhino Carving</h5>
-          <p>New</p>
-          <p>From:Mombasa, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 8,000</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Wooden Rhino Carving</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Mombasa, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 7600</p>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/giraffe.jpg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Wooden Carving Giraffe</h5>
-          <p>New</p>
-          <p>From:Busia, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 8,500</p>
+
+
+          <div class="card-body">
+            <h5 class="card-title">Wooden Carving Giraffe</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Busia, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 700</p>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col-6 col-md-3 shop-item">
         <div class="card">
           <img src="assets/images/big-five.jpeg" class="shoe-image" alt="">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Wooden Big-Five Carving</h5>
-          <p>New</p>
-          <p>From:Uasin Gishu, Kenya</p>
-          <div class="price d-flex justify-content-between my-3">
-            <i class="far fa-plus-square plus-icon  price-icon"></i>
-            <p class="h5 price-tag">Ksh. 800</p>
+
+          <div class="card-body">
+            <h5 class="card-title">Wooden Big-Five Carving</h5>
+            <p class="new-tag font-weight-bold">New</p>
+            <p>From:Uasin Gishu, Kenya</p>
+            <div class="price d-flex justify-content-between my-3">
+              <i class="far fa-plus-square plus-icon  price-icon"></i>
+              <p class="h5 price-tag font-weight-bold">Ksh. 800</p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -338,7 +364,7 @@
           Sapiente, nobis</p>
       </div>
       <div class="col-4 pl-2">
-        <h1 class="footer-heading text-pink m-2 py-2">
+        <h1 class="footer-heading text-pink m-2 py-2 font-weight-bold">
           CATEGORIES
         </h1>
         <ul>
@@ -353,7 +379,7 @@
         </ul>
       </div>
     </div>
-    </div>
+
     <div class="row p-0 m-0">
       <div class="col d-flex justify-content-center  my-3">
         <p class="ml-2">
