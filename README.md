@@ -32,6 +32,7 @@ Watch my video [presentation](https://www.loom.com/share/4141b39bb9744409b6be79c
 ## Live Demo
 
 [Live Demo Link for index.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/index.html)
+
 [Live Demo Link for search-page.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/search.html)
 
 
