@@ -23,22 +23,6 @@
   src: url(/styles/fonts/HelveticaNeue-Medium.ttf);
 }
 
-.font-gotham-bold {
-  font-family: font-gotham-bold;
-}
-
-.font-gotham-light {
-  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
-}
-
-.font-helvetica {
-  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
-}
-
-.font-helvetica-light {
-  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
-}
-
 .white-color {
   color: #fff;
 }
@@ -103,7 +87,7 @@ img {
 
 body {
   height: 100%;
-  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif, font-gotham-bold, "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif, "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 nav {
@@ -132,8 +116,8 @@ nav ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 25px;
 }
 
@@ -158,8 +142,8 @@ nav ul .email {
   background-color: #d35266;
   height: 50vh;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 section {
@@ -168,12 +152,12 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .search {
@@ -194,8 +178,8 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 auto;
   padding: 17vh 0;
   padding-bottom: 1vh;
@@ -237,8 +221,8 @@ select {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 5vh;
 }
 
@@ -320,8 +304,8 @@ select {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
   padding: 50px;
   gap: 35px;
 }
@@ -380,8 +364,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .main-section-search {
@@ -415,7 +399,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
+
 /*# sourceMappingURL=style.css.map */
