@@ -1,3 +1,4 @@
+
 @import "./variables";
 @import "./mixin";
 @import "./typography";
@@ -60,8 +61,13 @@
 .dropdown-divider {
   margin-bottom: 4vh;
   font-weight: bolder;
+
 }
 
+.dropdown-divider {
+    margin-bottom: 4vh;
+    font-weight: bolder;
+}
 img {
   width: 100%;
 }
@@ -101,6 +107,7 @@ nav {
     margin: 0 20px;
 
     button {
+
       padding: 10px;
       border-radius: 5px;
       background-color: $pinkColor;
@@ -133,10 +140,13 @@ nav {
 }
 
 .hero-section {
+
   background-color: $pinkColor;
   height: 50vh;
   justify-content: center;
 }
+
+
 
 section {
   @include flex();
@@ -155,6 +165,7 @@ section {
 }
 
 .hero-text {
+
   @include flex();
 
   flex-direction: column;
