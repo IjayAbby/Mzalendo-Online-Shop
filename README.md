@@ -14,7 +14,7 @@ I was given this design by [Mohammed Awad](https://www.behance.net/gallery/24796
 
 ## Video Presentation
 
-Watch my video [presentation](https://www.loom.com/share/b500106067f94b6fb236ab3ccd2e8853) of the project to hear more about this assignment and how I approached it.
+Watch my video [presentation](https://www.loom.com/share/4141b39bb9744409b6be79c5fcd400aa) of the project to hear more about this assignment and how I approached it.
 
 ## Built With
 
@@ -31,8 +31,8 @@ Watch my video [presentation](https://www.loom.com/share/b500106067f94b6fb236ab3
 
 ## Live Demo
 
-[Live Demo Link for index.html]
-[Live Demo Link for search-page.html]
+[Live Demo Link for index.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/index.html)
+[Live Demo Link for search-page.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/search.html)
 
 
 ## Getting Started
