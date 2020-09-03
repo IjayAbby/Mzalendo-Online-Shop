@@ -65,20 +65,6 @@
   font-weight: bolder;
 }
 
-.price-tag {
-  color: #d35266;
-}
-
-.price-icon {
-  font-weight: lighter;
-  color: grey;
-}
-
-.dropdown-divider {
-  margin-bottom: 4vh;
-  font-weight: bolder;
-}
-
 img {
   width: 100%;
 }
@@ -103,7 +89,7 @@ body {
   height: 100%;
   font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
-  
+
 nav {
   background-color: #383838;
 }
@@ -274,10 +260,6 @@ select {
   transition: 0.4s ease-out;
 }
 
-.row {
-  margin-bottom: 4vh;
-}
-
 .crafts {
   margin-bottom: 5vh;
 }
@@ -384,7 +366,6 @@ footer {
 
 .main-section-search {
   background-color: #f6f6f6;
-  margin-top: 10vh;
 }
 
 .carving-image {

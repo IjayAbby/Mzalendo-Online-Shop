@@ -5,22 +5,6 @@
 
 //  GLOBAL
 
-.font-gotham-bold {
-  font-family: $font-gotham-bold;
-}
-
-.font-gotham-light {
-  font-family: $font-gotham-light;
-}
-
-.font-helvetica {
-  font-family: $font-helvetica;
-}
-
-.font-helvetica-light {
-  font-family: $font-helvetica-light;
-}
-
 .white-color {
   color: $whiteColor;
 }
@@ -61,13 +45,8 @@
 .dropdown-divider {
   margin-bottom: 4vh;
   font-weight: bolder;
-
 }
 
-.dropdown-divider {
-    margin-bottom: 4vh;
-    font-weight: bolder;
-}
 img {
   width: 100%;
 }
@@ -90,7 +69,7 @@ img {
 
 body {
   height: 100%;
-  font-family: $font-gotham-light, $font-gotham-bold, $font-helvetica, $font-helvetica-light;
+  font-family: $font-gotham-light, $font-helvetica, $font-helvetica-light;
 }
 
 // NAVIGATION
@@ -107,7 +86,6 @@ nav {
     margin: 0 20px;
 
     button {
-
       padding: 10px;
       border-radius: 5px;
       background-color: $pinkColor;
@@ -140,13 +118,10 @@ nav {
 }
 
 .hero-section {
-
   background-color: $pinkColor;
   height: 50vh;
   justify-content: center;
 }
-
-
 
 section {
   @include flex();
@@ -165,7 +140,6 @@ section {
 }
 
 .hero-text {
-
   @include flex();
 
   flex-direction: column;
@@ -293,10 +267,6 @@ select {
 .card {
   transition: 0.4s ease-out;
   //   box-shadow: 7px 10px rgba(black, 0.2);
-}
-
-.row {
-  margin-bottom: 4vh;
 }
 
 .crafts {

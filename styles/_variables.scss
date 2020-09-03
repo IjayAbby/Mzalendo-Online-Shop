@@ -1,12 +1,13 @@
 $darkColor: #383838;
-<<<<<<< HEAD
-$grayColor: #888;
-=======
 $grayColor: #f7f7f7;
->>>>>>> 3dffec3f6a616b78f5fb1fa3402010ea9ca15a08
 $pinkColor: #d35266;
 $whiteColor: #fff;
-$font-gotham-light : font-gotham-light;
-$font-gotham-bold : font-gotham-bold;
-$font-helvetica : font-helvetica;
-$font-helvetica-light : font-helvetica-light;
+$font-helvetica: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
+
+$font-helvetica-light: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+
+$font-helvetica-bold: "helvetica-bold", "helvetica-medium", "helvetica-light", helvetica, arial, sans-serif;
+
+$font-gotham: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+
+$font-gotham-light: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
