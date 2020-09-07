@@ -9,7 +9,7 @@ I was given this design by [Mohammed Awad](https://www.behance.net/gallery/24796
 
 > I am using logo and content from [this](https://hatchful.shopify.com/onboarding/pick-space) website.
 
-![logo](https://user-images.githubusercontent.com/43843720/91909128-52c37b80-ecb5-11ea-8ef3-ef390b3fd6ef.png)
+![facebook_cover_photo_2](https://user-images.githubusercontent.com/43843720/92249787-4288e780-eed3-11ea-8807-d63e5d7561dc.png)
 
 
 ## Video Presentation
@@ -31,9 +31,8 @@ Watch my video [presentation](https://www.loom.com/share/4141b39bb9744409b6be79c
 
 ## Live Demo
 
-[Live Demo Link for index.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/index.html)
+[Live Demo](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/index.html)
 
-[Live Demo Link for search-page.html](https://raw.githack.com/IjayAbby/Mzalendo-Online-Shop/development/search.html)
 
 
 ## Getting Started
@@ -47,7 +46,7 @@ Watch my video [presentation](https://www.loom.com/share/4141b39bb9744409b6be79c
 3. Copy and paste the following code into the Terminal:
 
 
-    git clone https://github.com/IjayAbby/Mzalendo-Online-Shop.git
+   ``` git clone https://github.com/IjayAbby/Mzalendo-Online-Shop.git ```
 
 4. Hit enter.
 
@@ -89,9 +88,9 @@ Finally, if you've read this far, don't forget to give this repo a ⭐️. They'
 
 - README Content was taken from [Amita Roy](https://github.com/Amita-Roy), one of my friends.
 
-- Icons were taken from https://fontawesome.com/
+- Icons were taken from [fontawesome](https://fontawesome.com/)
 
-- The use of demo morkup from (https://smartmockups.com/)
+- The use of demo morkup from [smartmockups](https://smartmockups.com/)
 
 
 
