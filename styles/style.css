@@ -35,6 +35,10 @@
   margin-top: 10vh;
 }
 
+.overflow {
+  overflow-x: hidden;
+}
+
 .test1 {
   font-weight: bolder;
   color: #d35266;
@@ -88,6 +92,7 @@ img {
 body {
   height: 100%;
   font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  width: 100%;
 }
 
 nav {
@@ -139,7 +144,12 @@ nav ul .email {
 }
 
 .hero-section {
-  background-color: #d35266;
+  background: #df304a;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(231, 45, 73, 0.404)), color-stop(25%, rgba(197, 39, 63, 0.804)), color-stop(75%, rgba(243, 21, 55, 0.802)), color-stop(92%, rgba(221, 32, 60, 0.633))), url("../assets/images/logo.png");
+  background: linear-gradient(270deg, rgba(231, 45, 73, 0.404) 0%, rgba(197, 39, 63, 0.804) 25%, rgba(243, 21, 55, 0.802) 75%, rgba(221, 32, 60, 0.633) 92%), url("../assets/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 50vh;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -258,6 +268,8 @@ select {
 .card {
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
+  -webkit-box-shadow: 7px 10px #d1cece;
+  box-shadow: 7px 10px #d1cece;
 }
 
 .crafts {
@@ -351,7 +363,7 @@ footer {
 }
 
 .aside-section {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .material-checkbox {
@@ -369,7 +381,7 @@ footer {
 }
 
 .carving-image {
-  width: 230px;
+  width: 210px;
   height: 210px;
 }
 
@@ -397,6 +409,16 @@ footer {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
+  }
+
+  .mzalendo {
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
