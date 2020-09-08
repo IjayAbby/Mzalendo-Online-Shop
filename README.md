@@ -14,7 +14,7 @@ I was given this design by [Mohammed Awad](https://www.behance.net/gallery/24796
 
 ## Video Presentation
 
-Watch my video [presentation](https://www.loom.com/share/4141b39bb9744409b6be79c5fcd400aa) of the project to hear more about this assignment and how I approached it.
+Watch my video [presentation](https://www.loom.com/share/86f3c23ed7824fa682dec0e2833945ca) of the project to hear more about this assignment and how I approached it.
 
 ## Built With
 
