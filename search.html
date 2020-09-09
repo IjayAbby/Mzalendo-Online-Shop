@@ -15,13 +15,13 @@
 
 <body class="container-fluid">
 
-    <nav class="navbar navbar-expand-sm fixed-top container-fluid">
+    <nav class="navbar navbar-expand-sm fixed-top container-fluid d-sm-none">
 
         <ul>
             <li>
                 <a href="/index.html">
                     <img src="assets/images/logo.png" class="logo" alt="" />
-                    <h6 class="white-color ">MZALENDO</h6>
+                    <h1 class="white-color ">MZALENDO</h1>
                 </a>
             </li>
             <li>
@@ -51,6 +51,38 @@
 
     </nav>
 
+    <!-- SMALL SCREEN -->
+    <nav class="navbar navbar-expand-sm fixed-top container-fluid d-sm-block">
+
+        <ul>
+            <li>
+                <a href="/index.html">
+                    <img src="assets/images/logo.png" class="logo" alt="" />
+                    <h1 class="white-color ">MZALENDO</h1>
+                </a>
+            </li>
+            <li>
+                <a class="list-height" href="#">
+                    <i class="fas fa-home list-space bg-pink"></i>
+                    <h6 class="pink-color">HOME</h6>
+                </a>
+            </li>
+            <li class="d-none d-sm-block">
+                <a class="list-height" href="#">
+                    <i class="far fa-sliders-h-square"></i>
+                    <h6 class="gray-color">COLLECTIONS</h6>
+                </a>
+            </li>
+            <li class="d-none d-sm-block">
+                <a class="list-height" href="#">
+                    <i class="fas fa-shopping-cart list-space gray-color"></i>
+                    <h6 class="gray-color">CART</h6>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
     <div class=" hero-section container-fluid">
         <div class="hero-text">
             <h2 class="text-white text-center mzalendo">MZALENDO</h2>
@@ -61,7 +93,7 @@
             <div class="container-fluid search-area">
                 <div class="row">
 
-                    <div class="col-sm-3">
+                    <div class="col">
                         <select name="departments" id="departments" class="search-contents">
                             <option disabled="" selected="" value="">Categories</option>
                             <option value="shuka">Shukas</option>
@@ -72,22 +104,22 @@
                     </div>
 
 
-                    <div class="col-sm-3">
+                    <div class="col">
                         <input type="text" id="search" class="search-contents" placeholder="Search products">
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col">
                         <input type="text" id="county" class="search-contents" placeholder="Country">
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col">
                         <button type="button" class="btn btn-dark search-contents search-btn">Search</button>
                     </div>
-
 
                 </div>
             </div>
         </form>
+
     </div>
 
     <!-- MAIN SECTION -->
@@ -95,8 +127,8 @@
         <h2 class="ads-title">SEARCH PRODUCTS</h2>
         <div class="main-section-search d-flex">
 
-            <div class="col-lg-3 col-sm-3  d-sm-none d-md-block d-lg-block search-pane p-0 d-flex">
-                <aside class="aside-section">
+            <div class="col col-lg-3  d-sm-none d-xs-none d-md-block d-lg-block search-pane p-0 d-flex">
+                <aside class="aside-section display-none">
                     <div class="d-flex py-1">
                         <div class="col p-0 m-0">
                             <input type="checkbox" id="carving" name="carving" value="carving">
@@ -124,15 +156,11 @@
                                     </div>
                                     <div class="col p-0 m-0"> <label for="carving1">Wooden </label></div>
 
-
-
                                 </div>
                                 <div class="d-flex py-1">
                                     <div class="col p-0 m-0"> <input type="checkbox" id="carving2" name="metalic"
                                             value="Metalic"></div>
                                     <div class="col p-0 m-0"> <label for="carving2">Metalic</label></div>
-
-
 
                                 </div>
                                 <div class="d-flex py-1">
@@ -317,6 +345,8 @@
                     </li>
                 </ul>
             </div>
+
+
         </div>
 
     </main>

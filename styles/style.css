@@ -412,12 +412,45 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
   .hero-section {
     height: 60vh;
   }
 
   .mzalendo {
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow: hidden;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .search-pane {
+    display: none;
   }
 }
 
