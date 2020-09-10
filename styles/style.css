@@ -205,10 +205,7 @@ section {
 }
 
 input {
-  border-radius: 0.5vw;
-  border: none;
-  margin-right: 1vw;
-  width: 100%;
+  margin-right: 20px;
 }
 
 select {
@@ -360,6 +357,10 @@ footer {
 
 .search-pane {
   padding: 0;
+}
+
+.aside-section {
+  margin-left: 30px;
 }
 
 .material-checkbox {

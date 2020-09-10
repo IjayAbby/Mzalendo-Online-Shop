@@ -79,7 +79,6 @@ body {
 // NAVIGATION
 nav {
   background-color: $darkColor;
-  // background-image: url(../assets/images/logo.png);
 
   .logo {
     width: 40px;
@@ -167,10 +166,7 @@ section {
 }
 
 input {
-  border-radius: 0.5vw;
-  border: none;
-  margin-right: 1vw;
-  width: 100%;
+  margin-right: 20px;
 }
 
 select {
@@ -371,9 +367,9 @@ footer {
   padding: 0;
 }
 
-// .aside-section {
-//   margin-left: 30px;
-// }
+.aside-section {
+  margin-left: 30px;
+}
 
 .material-checkbox {
   @include flex();

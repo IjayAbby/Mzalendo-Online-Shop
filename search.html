@@ -95,7 +95,7 @@
 
                     <div class="col">
                         <select name="departments" id="departments" class="search-contents">
-                            <option disabled="" selected="" value="">Categories</option>
+                            <option disabled="" selected="" value="">All</option>
                             <option value="shuka">Shukas</option>
                             <option value="beads">Beads</option>
                             <option value="shoes">Shoes</option>
@@ -127,91 +127,66 @@
         <h2 class="ads-title">SEARCH PRODUCTS</h2>
         <div class="main-section-search d-flex">
 
-            <div class="col col-lg-3  d-sm-none d-xs-none d-md-block d-lg-block search-pane p-0 d-flex">
+            <div class="col col-lg-3  d-sm-none d-xs-none d-md-none d-lg-block search-pane p-0 d-flex">
                 <aside class="display-none">
                     <div class="d-flex py-1">
-                        <div class="col p-0 m-0">
+                        <div class="ml-3">
                             <input type="checkbox" id="carving" name="carving" value="carving">
                         </div>
-                        <div class="col p-0 m-0">
+                        <div>
                             <label for="carving">Carvings</label>
 
                         </div>
 
-                        <div class="col p-0 m-0">
+                        <div class="ml-3">
                             <input type="checkbox" id="material" name="material" value="material">
                         </div>
-                        <div class="col p-0 m-0">
+                        <div>
                             <label for="material" class="ml-1">Type</label>
                         </div>
                     </div>
 
-                    <div class="">
+                    <div>
                         <div class="col-sm-6 col-md-12">
                             <h2 class="font-weight-bold py-1 border-bottom">Type</h2>
-                            <div class="py-2 material-checkbox">
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="carving1" name="wood" value="Wooden">
-                                    </div>
-                                    <div class="col p-0 m-0"> <label for="carving1">Wooden </label></div>
-
+                            <div>
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="carving1" name="wood" value="Wooden">
+                                    <label for="carving1"> Wooden </label>
                                 </div>
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0"> <input type="checkbox" id="carving2" name="metalic"
-                                            value="Metalic"></div>
-                                    <div class="col p-0 m-0"> <label for="carving2">Metalic</label></div>
 
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="carving2" name="metalic" value="Metalic">
+                                    <label for="carving2">Metalic</label>
                                 </div>
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
-                                    </div>
-                                    <div class="col p-0 m-0">
-                                        <label for="carving3">Stone</label>
-                                    </div>
 
-
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="carving3" name="soap-stone" value="Soap-stone">
+                                    <label for="carving3">Stone</label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-12">
-                            <h2 class="font-weight-bold py-1 border-bottom">Price Range</h2>
-                            <div class="py-2">
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="price1" name="price" value="Wooden">
-                                    </div>
-                                    <div class="col p-0 m-0">
-                                        <label for="price1">100+</label>
-                                    </div>
+                            <h2 class="font-weight-bold py-1 border-bottom  mt-3">Price Range</h2>
+                            <div>
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="price1" name="price" value="Wooden">
+                                    <label for="price1">100 - 1,000</label>
                                 </div>
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="price2" name="price" value="Metalic">
-                                    </div>
-                                    <div class="col p-0 m-0">
-                                        <label for="price2">1,000+</label>
-                                    </div>
 
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="price2" name="price" value="Metalic">
+                                    <label for="price2">1,000 - 5,000</label>
                                 </div>
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="price3" name="price" value="Soap-stone">
-                                    </div>
-                                    <div class="col p-0 m-0">
-                                        <label for="price3">5,000+</label><br>
-                                    </div>
 
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="price3" name="price" value="Soap-stone">
+                                    <label for="price3">5,000 - 10,000</label><br>
                                 </div>
-                                <div class="d-flex py-1">
-                                    <div class="col p-0 m-0">
-                                        <input type="checkbox" id="price4" name="price" value="Soap-stone">
-                                    </div>
-                                    <div class="col p-0 m-0">
-                                        <label for="price4">10,000+</label>
-                                    </div>
 
+                                <div class="d-flex mt-2">
+                                    <input type="checkbox" id="price4" name="price" value="Soap-stone">
+                                    <label for="price4">10,000+</label>
                                 </div>
                             </div>
                         </div>
