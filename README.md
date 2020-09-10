@@ -3,7 +3,7 @@
 > The HTML & CSS Capstone Project is based on an online shop for electronics where I was requested to personalise the website.Mzalendo Online Shop is an ecommerce website for selling African products like beads, carvings and traditional gaments.
  
 
-![mzalendo-online-shop](https://user-images.githubusercontent.com/43843720/92479535-55116280-f1ec-11ea-8e39-f2ea1f85876c.jpg)
+![mzalendo-online-shop](https://user-images.githubusercontent.com/43843720/92794589-5e4f2a80-f3b8-11ea-8125-e4a6e2156c56.jpg)
 
 I was given this design by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)'s to follow, mirroring its structure, typography and colors as I built my own mzalendo website.
 
