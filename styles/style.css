@@ -324,8 +324,8 @@ select {
 }
 
 .shoe-image {
-  width: 100%;
   height: 200px;
+  width: 100%;
 }
 
 .plus-icon {
@@ -360,10 +360,6 @@ footer {
 
 .search-pane {
   padding: 0;
-}
-
-.aside-section {
-  margin-left: 30px;
 }
 
 .material-checkbox {
