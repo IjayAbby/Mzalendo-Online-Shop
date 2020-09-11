@@ -423,7 +423,7 @@ footer {
     max-width: 768px;
   }
   .hero-section {
-    height: 60vh;
+    height: 40vh;
   }
   .mzalendo {
     margin-top: 20px;
@@ -469,6 +469,9 @@ footer {
 }
 
 @media (max-width: 425px) {
+  carving-image {
+    height: 35vh;
+  }
   .footer-image {
     margin-left: 120px;
   }
