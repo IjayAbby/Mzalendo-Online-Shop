@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm fixed-top container-fluid d-sm-none">
+  <nav class="fixed-top d-sm-none p-0 m-0">
 
     <ul>
       <li>
@@ -51,7 +51,7 @@
   </nav>
 
   <!-- SMALL SCREEN -->
-  <nav class="navbar navbar-expand-sm fixed-top container-fluid d-sm-block">
+  <nav class="fixed-top d-sm-block">
 
     <ul>
       <li>
@@ -85,15 +85,15 @@
   <div class=" hero-section">
     <div class="hero-text m-30">
 
-      <h2 class="text-white text-center mzalendo">MZALENDO</h2>
+      <h2 class="text-white text-center mzalendo small">MZALENDO</h2>
       <p class="text-white text-center mwacha">Mwacha mila ni mtumwa</p>
     </div>
 
     <form action="./search.html" method="get">
-      <div class="container-fluid search-area">
+      <div class="search-area">
         <div class="row">
 
-          <div class="col-sm-3">
+          <div class="col-sm-3">  
             <select name="departments" id="departments" class="search-contents">
               <option disabled="" selected="" value="">All</option>
               <option value="shuka">Shukas</option>
@@ -120,14 +120,15 @@
     </form>
   </div>
 
+
   <h2 class="ads-title">HOT ADS</h2>
   <section class="section-hot-ads slide-in-elliptic-bottom-fwd">
 
-    <div class="row">
-      <div class="col-4">
+    <div class="row p-0 m-0">
+      <div class="col-xl-6 col-lg-4 col-md-6">
         <img src="assets/images/Shuka300.jpg" class="image-width" alt="" />
       </div>
-      <div class="col-8 ads-contents">
+      <div class="col-xl-6 col-lg-8 col-md-6 ads-contents">
         <h2 class="h4 ads-name font-weight-bold">Collection of Maasai Shuka.</h2>
 
         <p>
@@ -155,7 +156,7 @@
   <main>
     <h2 class="ads-title">FEATURED PRODUCTS</h2>
 
-    <div class="products container-fluid">
+    <div class="products">
 
       <div class="d-flex">
         <h3 class="h5 font-weight-bold text-muted">Shoes</h3>
@@ -163,7 +164,7 @@
       </div>
       <div class="dropdown-divider"></div>
 
-      <div class="row">
+      <div class="row p-0 m-0">
 
         <div class="col-6 col-md-3 ">
           <div class="card shop-item">
@@ -238,7 +239,7 @@
       <div class="dropdown-divider"></div>
 
 
-      <div class="row">
+      <div class="row p-0 m-0">
         <div class="col-6 col-md-3 shop-item">
           <div class="card">
             <img src="assets/images/bead2.jpeg" class="shoe-image" alt="">
@@ -315,7 +316,7 @@
       </div>
       <div class="dropdown-divider"></div>
 
-      <div class="row crafts">
+      <div class="row crafts p-0 m-0">
         <div class="col-6 col-md-3 shop-item">
           <div class="card">
             <img src="assets/images/cheetar.jpeg" class="shoe-image" alt="">
@@ -388,10 +389,10 @@
   </main>
 
 
-
   <hr>
-  <footer class="border-top border-bottom m-0 p-0">
-    <div class="row">
+
+  <footer class="border-top border-bottom m-0 p-0 small d-md-block">
+    <div class="row p-0 m-0">
       <div class="col d-flex">
         <div class="footer-logo-area col-4 pl-2">
           <img src="assets/images/logo.png" class="footer-logo m-3" alt="">
@@ -399,7 +400,7 @@
             african , choose Mzalendo.All our products are legit and certified by KEBS.</p>
         </div>
         <div class="col-4 pl-2">
-          <h2 class="footer-heading text-pink m-2 py-2 font-weight-bold">
+          <h2 class="footer-heading text-pink m-2 py-2 font-weight-bold ">
             CATEGORIES
           </h2>
           <ul>
@@ -454,7 +455,7 @@
         </ul>
       </div>
     </div>
-    <div class="row">
+    <div class="row p-0 m-0">
       <div class="col justify-content-center my-3">
         <p>
           Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby.
@@ -468,6 +469,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- SMALL SCREENS -->
+  <footer class="block d-sm-block d-md-none d-lg-none d-xl-none m-0">
+    <div class="">
+      <img src="assets/images/logo.png" class="footer-image" alt="">
+      <p>Mzalendo is your one stop shop for any african product.This is where culture meets your needs, be
+        african , choose Mzalendo.All our products are legit and certified by KEBS.</p> <br>
+    </div>
+
+    <div>
+      <div>
+        <p>
+          Copyright © 2025 Mzalendo.com. All rights reserved.Designed by Ijay Abby.
+        </p>
+      </div>
+      <div class="col social-icons justify-content-around my-2">
+        <a href="#"><i class="text-muted fab fa-instagram-square plus-icon"></i></a>
+        <a href="#"><i class="text-muted fab fa-facebook-square plus-icon"></i></a>
+        <a href="#"><i class="text-muted fab fa-twitter-square plus-icon"></i></a>
+        <a href="#"><i class="text-muted fab fa-linkedin plus-icon"></i></a>
+      </div>
+    </div>
+  </footer>
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>

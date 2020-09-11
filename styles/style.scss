@@ -51,7 +51,9 @@
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  // height: auto;
+  
 }
 
 .gray-color {
@@ -70,15 +72,21 @@ img {
   color: $pinkColor;
 }
 
+.max-width {
+  max-width: 1440px;
+}
+
 body {
   height: 100%;
   font-family: $font-gotham-light, $font-helvetica, $font-helvetica-light;
-  width: 100%;
+  max-width: 1440px;
 }
 
 // NAVIGATION
 nav {
   background-color: $darkColor;
+  max-width: 1440px;
+  overflow-x: hidden;
 
   .logo {
     width: 40px;
@@ -129,6 +137,7 @@ nav {
   background-size: cover;
   height: 50vh;
   justify-content: center;
+  max-width: 1440px;
 }
 
 section {
@@ -201,8 +210,8 @@ select {
 }
 
 .section-hot-ads {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
+  // margin-top: 7vh;
+  // margin-bottom: 7vh;
 }
 
 // .slide-in-elliptic-bottom-fwd {
@@ -336,6 +345,7 @@ select {
 
 // Footer section
 footer {
+  max-width: 1440px;
   margin-top: 10vh;
 }
 
@@ -411,10 +421,21 @@ footer {
 
 // MEDIA-QUERIES
 
+@media (max-width: 1024px) {
+ .image-width {
+   margin-left: 10px;
+   width: inherit;
+ }
+}
+
 @media only screen and (max-width: 768px) {
-  body {
-    overflow: hidden;
-  }
+  // body {
+  //   overflow: hidden;
+  // }
+
+    nav {
+      max-width: 768px;
+    }
 
   .hero-section {
     height: 60vh;
@@ -430,15 +451,30 @@ footer {
   }
 }
 
+@media (max-width: 767px) {
+  .footer-image {
+    max-width: 50%;
+    margin-left: 270px;
+    height: 20vh;
+  }
+  .section-hot-ads ,
+  .ads-title {
+    display: none
+  }
+}
+
 @media (min-width: 576px) {
-  body {
-    overflow-x: hidden;
+  // body {
+  //   overflow-x: hidden;
+  // }
+  .small {
+    display: none;
   }
 }
 
 @media (max-width: 576px) {
-  body {
-    overflow: hidden;
+  nav {
+    max-width: 576px;
   }
 
   .display-none {
@@ -449,7 +485,45 @@ footer {
     display: block;
   }
 
-  .search-pane {
+  .search-pane ,
+  .small {
     display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-image {
+    margin-left:120px;
+  }
+}
+@media (max-width: 375px) {
+  nav {
+    max-width: 375px;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .block {
+    display: block;
+  }
+  .footer-image {
+    width:50%;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 320px) {
+  nav {
+    max-width: 320px;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .block {
+    display: block;
   }
 }
