@@ -95,7 +95,7 @@ img {
 
 body {
   height: 100%;
-  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif, "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif, "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
   max-width: 1440px;
 }
 
@@ -127,8 +127,8 @@ nav ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 25px;
 }
 
@@ -158,8 +158,8 @@ nav ul .email {
   background-size: cover;
   height: 50vh;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   max-width: 1440px;
 }
 
@@ -169,12 +169,12 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .search {
@@ -195,8 +195,8 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0 auto;
   padding: 17vh 0;
   padding-bottom: 1vh;
@@ -235,8 +235,8 @@ select {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 5vh;
 }
 
@@ -268,7 +268,7 @@ select {
   -webkit-transition: 0.4s ease-out;
   transition: 0.4s ease-out;
   -webkit-box-shadow: 7px 10px #d1cece;
-          box-shadow: 7px 10px #d1cece;
+  box-shadow: 7px 10px #d1cece;
 }
 
 .crafts {
@@ -311,8 +311,8 @@ select {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
   padding: 50px;
   gap: 35px;
 }
@@ -372,8 +372,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .main-section-search {
@@ -407,8 +407,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 @media (max-width: 1024px) {
@@ -422,13 +422,16 @@ footer {
   nav {
     max-width: 768px;
   }
+
   .hero-section {
     height: 40vh;
   }
+
   .mzalendo {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
   form {
     display: none;
   }
@@ -440,6 +443,7 @@ footer {
     margin-left: 270px;
     height: 20vh;
   }
+
   .section-hot-ads,
   .ads-title {
     display: none;
@@ -456,12 +460,15 @@ footer {
   nav {
     max-width: 576px;
   }
+
   .display-none {
     display: none;
   }
+
   .display-block {
     display: block;
   }
+
   .search-pane,
   .small {
     display: none;
@@ -469,9 +476,10 @@ footer {
 }
 
 @media (max-width: 425px) {
-  carving-image {
+  .carving-image {
     height: 35vh;
   }
+
   .footer-image {
     margin-left: 120px;
   }
@@ -481,12 +489,15 @@ footer {
   nav {
     max-width: 375px;
   }
+
   .small {
     display: none;
   }
+
   .block {
     display: block;
   }
+
   .footer-image {
     width: 50%;
     margin-left: 70px;
@@ -497,9 +508,11 @@ footer {
   nav {
     max-width: 320px;
   }
+
   .small {
     display: none;
   }
+
   .block {
     display: block;
   }
