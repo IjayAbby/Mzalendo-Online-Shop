@@ -211,10 +211,6 @@ section {
   font-size: 4vh;
 }
 
-input {
-  margin-right: 20px;
-}
-
 select {
   border-radius: 0.5vw;
   border: none;
@@ -517,4 +513,5 @@ footer {
     display: block;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
